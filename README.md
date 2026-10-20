@@ -8,6 +8,7 @@ every push to `main`.
 
     index.html, <page>/index.html   the Squarespace pages, at their original paths
     s/                              PDFs linked from the site (speaker guidelines, prospectus)
+    media/                          home page background video (MP4 from the Squarespace HLS stream) and poster
     squarespace/<host>/             Squarespace CDN assets (images, CSS, JS, fonts)
     pretalx/good-2026/              copy of the pretalx schedule: talk and speaker
                                     pages, widget data, and exports (json, xml, ics, xcal)
