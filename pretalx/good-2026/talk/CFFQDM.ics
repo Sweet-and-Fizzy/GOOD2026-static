@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//CFFQDM
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:OnDemand Andragogy - Kyriakos Tsoukalas [Colgate University]
+DTSTART;TZID=US/Mountain:20260310T110000
+DTEND;TZID=US/Mountain:20260310T112500
+DTSTAMP:20261020T211453Z
+UID:pretalx-good-2026-CFFQDM@pretalx.com
+DESCRIPTION:Open OnDemand enables the execution of passenger applications
+ \, which can be utilized for self-paced learning and andragogy through Gen
+ AI-powered tools. The GenAI tutor paradigm can now be accessible on demand
+ \, within the same platform\, to support a variety of user needs as soon a
+ s they arise. Open OnDemand passenger applications could enable guidance o
+ n basic coding\, instructions for submitting jobs with different scheduler
+ s\, "chatting" with available documentation\, and accessing vital informat
+ ion via microservices such as resource availability\, job-specific informa
+ tion\, and efficiency reports.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/CFFQDM/
+END:VEVENT
+END:VCALENDAR

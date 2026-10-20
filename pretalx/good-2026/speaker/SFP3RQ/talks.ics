@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//SFP3RQ
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Designing Custom Dashboard and Job Monitoring Tools in OOD - Willi
+ am Goldman [Tufts]
+DTSTART;TZID=US/Mountain:20260310T113000
+DTEND;TZID=US/Mountain:20260310T115500
+DTSTAMP:20261020T211111Z
+UID:pretalx-good-2026-YP3DSW@pretalx.com
+DESCRIPTION:During a two-semester internship with Tufts Technology Service
+ s\, interns Javier Laveaga and William Goldman developed new Open OnDemand
+  applications for displaying cluster statistics and user job data\, and im
+ proved both the functionality and appearance of the Tufts High-Performance
+  Cluster dashboard. In this talk\, we share our experiences building custo
+ m apps and dashboard components\, the final results\, and the programming 
+ languages and structure used. We explain how to create fully customizable 
+ user-facing applications in Open OnDemand.
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/YP3DSW/
+END:VEVENT
+END:VCALENDAR

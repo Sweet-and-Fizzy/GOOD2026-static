@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//MRHF8W
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Workflow Management in Open OnDemand - Harshit Soora [University o
+ f Maryland]
+DTSTART;TZID=US/Mountain:20260311T093000
+DTEND;TZID=US/Mountain:20260311T095500
+DTSTAMP:20261020T211020Z
+UID:pretalx-good-2026-ZEZHQX@pretalx.com
+DESCRIPTION:Executing multi-task computational research workflows on HPC s
+ ystems often requires manual scripting\, resource manager and scheduler ex
+ pertise. It creates barriers for researchers and educators\, especially at
+  smaller institutions or in multidisciplinary collaborations. Although OOD
+  provides an accessible web-based interface for launching standalone appli
+ cations as jobs\, it has lacked an integrated mechanism to easily compose
+ \, manage\, and execute multiple tasks with dependencies among them as Wor
+ kflows. Workflows enabled researchers to visually construct\, execute\, an
+ d monitor simple composition of multiple “launchers” (i.e. independent
+  tasks/jobs) that can perform data pre- or post-processing\, simulation\, 
+ and other computational tasks connected via output to input dependencies.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/ZEZHQX/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,92 @@
+/*
+ * SPDX-FileCopyrightText: 2024-present Tobias Kunze
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+:root {
+  --color-text: #1a1d1f;
+  --color-text-soft: #5f6b76;
+  --color-text-softer: #8a939c;
+  --color-text-softest: #a8b0b7;
+
+  --color-border: #ced4da;
+  --color-border-soft: #d8dbe0;
+  --color-border-softer: #e8eaed;
+  --color-border-softest: #f0f1f3;
+
+  --color-white: #fff;
+  --color-bg: var(--color-white);
+  --color-bg-soft: #f8f9fa;
+  --color-bg-softer: #f0f1f3;
+  --color-bg-softest: #e8eaed;
+  --color-row-hover: #f6f8f7;
+
+  --color-pretalx: #3aa57c;
+
+  --color-primary: var(--color-pretalx);
+  --color-primary-text: color-mix(in srgb, var(--color-primary), black 30%);
+  --color-primary-soft: color-mix(in srgb, var(--color-primary), white 45%);
+  --color-primary-softer: color-mix(in srgb, var(--color-primary), white 72%);
+  --color-primary-softest: color-mix(in srgb, var(--color-primary), white 88%);
+  --color-text-on-primary: white;
+
+  --color-success: var(--color-pretalx);
+  --color-success-text: color-mix(in srgb, var(--color-success), black 30%);
+  --color-success-softest: color-mix(in srgb, var(--color-success), white 88%);
+
+  --color-info: #2b6a97;
+  --color-info-text: var(--color-info);
+
+  --color-warning: #e0912f;
+  --color-warning-text: color-mix(in srgb, var(--color-warning), black 35%);
+
+  --color-danger: #b23e65;
+  --color-danger-text: color-mix(in srgb, var(--color-danger), black 15%);
+  --color-danger-softest: color-mix(in srgb, var(--color-danger), white 88%);
+
+  --color-pending: #f9a557;
+  --color-pending-text: color-mix(in srgb, var(--color-pending), black 45%);
+
+  --color-neutral: var(--color-text-softer);
+  --color-neutral-text: var(--color-text-soft);
+
+  --radius-nav: 6px;
+  --radius-input: 8px;
+  --radius-card: 10px;
+  --radius-pill: 999px;
+  /* legacy alias */
+  --size-border-radius: var(--radius-nav);
+  --size-spacer: 1rem;
+
+  --height-topbar: 52px;
+  --height-nav-item: 32px;
+
+  --shadow-lightest: 0 1px 2px rgb(0 0 0 / 0.24);
+  --shadow-lighter: 0 1px 3px rgb(0 0 0 / 0.12), var(--shadow-lightest);
+  --shadow-light: 0 0 6px 1px rgb(0 0 0 / 0.1), var(--shadow-lighter);
+  --shadow-wide: 0 0 10px 1px rgb(0 0 0 / 0.2), var(--shadow-lighter);
+  --shadow-checkbox: inset 0 1px 2px rgb(0 0 0 / 0.1);
+  --shadow-pill: 0 0 2px var(--color-text-soft);
+  --shadow-menu: 0 8px 24px rgb(0 0 0 / 0.14);
+  --shadow-overlay: 0 24px 64px rgb(0 0 0 / 0.3);
+
+  --outline-focus-color-default: var(--color-primary-text);
+  --outline-focus: 2px solid var(--outline-focus-color-default);
+  --outline-focus-offset: 2px;
+  --outline-focus-offset-inset: calc(-1 * var(--outline-focus-offset));
+  --shadow-focus-halo: 0 0 6px 3px
+    color-mix(in srgb, var(--color-primary), transparent 78%);
+
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+@supports (color: oklch(from red min(l, 0.5) c h)) {
+  :root {
+    --outline-focus-color-default: oklch(
+      from var(--color-primary-text) min(l, 0.5) c h
+    );
+  }
+}

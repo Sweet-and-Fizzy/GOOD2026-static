@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//7HLYWH
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Using what I learned at GOOD25 to improve our center’s user expe
+ rience - Dori Sajdak [University at Buffalo]
+DTSTART;TZID=US/Mountain:20260310T133000
+DTEND;TZID=US/Mountain:20260310T134000
+DTSTAMP:20261020T211014Z
+UID:pretalx-good-2026-KGGGH3@pretalx.com
+DESCRIPTION:The GOOD25 conference served as a significant platform for adv
+ ancing knowledge beyond the fundamentals of Open OnDemand. Numerous presen
+ ters introduced tools and strategies aimed at extending the capabilities o
+ f the OnDemand portal and enhancing the overall user experience within hig
+ h-performance computing (HPC) environments. This presentation will analyze
+  several of the most influential approaches highlighted during the event a
+ nd discuss their successful integration into our center’s operations ove
+ r the past year.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/KGGGH3/
+END:VEVENT
+END:VCALENDAR

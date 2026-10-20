@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//LBGREL
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:A Modular Dashboard Framework for Customizable & Accessible High P
+ erformance Computing - Sahil Vartak [Texas A&M University]
+DTSTART;TZID=US/Mountain:20260311T100000
+DTEND;TZID=US/Mountain:20260311T102500
+DTSTAMP:20261020T211103Z
+UID:pretalx-good-2026-A3FWHS@pretalx.com
+DESCRIPTION:As HPC expands beyond computer science\, many users encounter 
+ command-line interfaces for the first time. HPCMosaic addresses this gap w
+ ith a modular OOD dashboard that simplifies cluster management for non-tec
+ hnical researchers while staying customizable for experienced users. This 
+ talk presents a framework that reduces support burden by enabling self-ser
+ vice for common tasks (file quotas\, account management\, and job control)
+  decreasing repetitive tickets. Targeted at HPC developers and cluster adm
+ ins\, this session covers modern dashboard development focused on customiz
+ ability and user experience. Attendees will learn how to build accessible 
+ HPC interfaces that let researchers focus on their work instead of trouble
+ shooting\, reducing user frustration and support workload.
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/A3FWHS/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Wizard for Complexity: Inspiring New UI/UX for HPC Applications 
+ - Sahil Vartak [Texas A&M University]\, Owen Schillaci [Texas A&M Universi
+ ty]
+DTSTART;TZID=US/Mountain:20260311T163000
+DTEND;TZID=US/Mountain:20260311T164000
+DTSTAMP:20261020T211103Z
+UID:pretalx-good-2026-DEVBWX@pretalx.com
+DESCRIPTION:LAMMPS's complex\, non-uniform GPU feature support creates a d
+ ilemma: users struggle to find a compatible build\, leading to wasted time
+ \, admin overload\, and underutilized GPUs (e.g.\, Intel Max). We present 
+ an intelligent\, wizard-style utility that performs **automatic three-way 
+ matchmaking** between available LAMMPS software builds\, GPU accelerators
+ \, and user input requirements. The utility suggests optimal\, GPU-acceler
+ ated builds and clearly explains why others are incompatible. Built atop t
+ he Drona job launcher\, the wizard uses dynamically repopulating menus to 
+ guide users through the selection process\, and finally injects the full c
+ onfiguration directly into a ready-to-run Slurm job script.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/DEVBWX/
+END:VEVENT
+END:VCALENDAR

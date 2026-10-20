@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//AWC8QJ
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Building LLM Inference Services for Researchers on HPC with Open O
+ nDemand - Heechang Na [Ohio Supercomputer Center]
+DTSTART;TZID=US/Mountain:20260310T113000
+DTEND;TZID=US/Mountain:20260310T115500
+DTSTAMP:20261020T211446Z
+UID:pretalx-good-2026-AWC8QJ@pretalx.com
+DESCRIPTION:We share how we built LLM inference services for researchers a
+ t Ohio Supercomputer Center (OSC) using Open OnDemand. Our users need LLMs
+  in many different ways\, so we support several service models. We started
+  with an Ollama module on the cluster\, added OpenWebUI\, and later create
+ d dedicated OnDemand apps that start the LLM server and give users a simpl
+ e interface. We also provide a Jupyter + Ollama app that exposes an OpenAI
+  API interface in a Jupyter kernel. We maintain shared models so users can
+  start quickly\, while still allowing local models. We have also deployed 
+ the Ollama + OpenWebUI service on our Kubernetes cluster\, but scaling it 
+ for a large number of users remains a challenge. We plan to add additional
+  LLM engines and front-ends as part of our future improvements as well.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/AWC8QJ/
+END:VEVENT
+END:VCALENDAR

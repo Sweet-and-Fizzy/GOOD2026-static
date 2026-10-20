@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//B9DAJC
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Implementing and Configuring User Impersonation - Brandon Biggs [I
+ daho National Lab]
+DTSTART;TZID=US/Mountain:20260311T113000
+DTEND;TZID=US/Mountain:20260311T115500
+DTSTAMP:20261020T211008Z
+UID:pretalx-good-2026-CCJPZN@pretalx.com
+DESCRIPTION:User impersonation is a powerful capability within Open OnDema
+ nd that enables designated users—such as administrators\, support staff
+ \, or service accounts—to act on behalf of other users to troubleshoot i
+ ssues\, validate configurations\, and streamline workflows. As HPC centers
+  grow more complex and support demands increase\, a flexible and secure im
+ personation model becomes essential.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/CCJPZN/
+END:VEVENT
+END:VCALENDAR

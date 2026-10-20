@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//KYBWAV
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:CryoSPARC Interactive App Deployment - Michael Dickens [Texas A&M 
+ University]
+DTSTART;TZID=US/Mountain:20260311T171000
+DTEND;TZID=US/Mountain:20260311T172000
+DTSTAMP:20261020T211454Z
+UID:pretalx-good-2026-KYBWAV@pretalx.com
+DESCRIPTION:CryoSPARC is a leading cryo‑EM data‑processing platform. W
+ hile CryoSPARC offers various installation methods\, each can pose signifi
+ cant challenges for HPC users and system administrators ranging from versi
+ on updates to port management.\n\nTo streamline deployment\, we have creat
+ ed a CryoSPARC interactive app and a script for generating a Singularity i
+ mage that eliminates the need for end‑users to perform any manual instal
+ lation. This OOD app utilizes a CryoSPARC Singularity image that is shared
+  among all users while providing each user with their own individual datab
+ ase and log files. This dramatically reduces storage overhead and simplifi
+ es version control\, while providing each researcher with a fully function
+ al CryoSPARC environment.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/KYBWAV/
+END:VEVENT
+END:VCALENDAR

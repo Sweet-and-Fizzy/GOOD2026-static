@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//PNLGJD
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:KROOD: Kubernetes Running Open OnDemand - Aaron Janssen [North Dak
+ ota State University]
+DTSTART;TZID=US/Mountain:20260311T140000
+DTEND;TZID=US/Mountain:20260311T142500
+DTSTAMP:20261020T211003Z
+UID:pretalx-good-2026-SFDZPQ@pretalx.com
+DESCRIPTION:Kubernetes has emerged as a *de facto* standard for deploying 
+ distributed systems and complex\, multi-service web applications\, and is 
+ gaining popularity in HPC environments. Given its demonstrated utility for
+  research computing\, how can we leverage Kubernetes for orchestrating  Op
+ en OnDemand (OOD) deployments? In this talk\, we present a Kubernetes oper
+ ator we developed for deploying and managing OOD inside a Kubernetes clust
+ er. We demonstrate how our operator can be used with a pilot implementatio
+ n of a Kubernetes-native OOD architecture that allows for network availabl
+ e PUNs and advanced scheduling. Finally\, we’ll close with a discussion 
+ of the pros\, cons\, and potential use cases for the KROOD approach to OOD
+  management.
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/SFDZPQ/
+END:VEVENT
+END:VCALENDAR

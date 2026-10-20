@@ -1,0 +1,178 @@
+/*
+ * SPDX-FileCopyrightText: 2024-present Tobias Kunze
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+details.dropdown {
+  position: relative;
+  /* A dropdown in a flex row would otherwise stretch to the row height. */
+  height: max-content;
+  /* Scoped, so each menu anchors to its own summary and not to the last one
+   * on the page. */
+  anchor-scope: --dropdown;
+
+  summary {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    anchor-name: --dropdown;
+
+    &::marker {
+      display: none;
+      list-style: none;
+    }
+  }
+
+  &[open] .dropdown-content {
+    animation: dropdown 0.2s ease-in-out;
+  }
+
+  .dropdown-content {
+    /* Fallback placement for browsers without CSS anchor positioning
+     * (Firefox < 147). The @supports block at the end of this rule replaces
+     * all of it where anchors are available. */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: max-content;
+    min-width: 190px;
+    max-width: 400px;
+    padding: 5px;
+    margin: 2px 0 0;
+    list-style: none;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 400;
+    background: white;
+    border: 1px solid var(--color-border-softer);
+    border-radius: var(--radius-card);
+    z-index: 1000;
+    box-shadow: var(--shadow-menu);
+
+    .dropdown-item {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 7px 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--color-text);
+      text-decoration: none;
+      border-radius: var(--radius-nav);
+      transition:
+        color 0.15s ease-in-out,
+        background-color 0.15s ease-in-out;
+
+      i.fa {
+        width: 1em;
+        flex-shrink: 0;
+        color: var(--color-text-softer);
+      }
+      &:not(:has(> i.fa))::before {
+        content: "";
+        width: 1em;
+        flex-shrink: 0;
+      }
+      &:hover {
+        background: var(--color-bg-softer);
+        text-decoration: none;
+      }
+      &.dropdown-item-danger {
+        color: var(--color-danger);
+        i.fa {
+          color: var(--color-danger);
+        }
+        &:hover {
+          background: var(--color-danger-softest);
+        }
+      }
+    }
+    button.dropdown-item {
+      /* The bare <button> rule in common/css/base.css paints border and
+       * background from --highlight-color; neutralise it rather than fight it. */
+      --highlight-color: transparent;
+      width: 100%;
+      font-family: var(--font-family);
+      font-size: inherit;
+      font-weight: normal;
+      text-align: left;
+      border: none;
+    }
+    hr {
+      margin: 5px 4px;
+      padding: 0;
+      border: none;
+      border-top: 1px solid var(--color-border-softest);
+    }
+  }
+
+  .dropdown-content-se {
+    top: 100%;
+    left: 0;
+  }
+  .dropdown-content-sw {
+    top: 100%;
+    right: 0;
+    left: auto;
+  }
+  .dropdown-content-s {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .dropdown-content-ne {
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    margin: 0 0 3px;
+  }
+  .dropdown-content-e {
+    top: 0;
+    left: 100%;
+    margin: 0 0 0 8px;
+  }
+  .dropdown-content-w {
+    top: 0;
+    right: 100%;
+    left: auto;
+    margin: 0 8px 0 0;
+  }
+
+  @supports (position-area: block-end) {
+    .dropdown-content {
+      position: fixed;
+      inset: auto;
+      transform: none;
+      position-anchor: --dropdown;
+      position-try-fallbacks: flip-block;
+    }
+    .dropdown-content-se {
+      position-area: block-end span-inline-end;
+    }
+    .dropdown-content-sw {
+      position-area: block-end span-inline-start;
+    }
+    .dropdown-content-s {
+      position-area: block-end center;
+    }
+    .dropdown-content-ne {
+      position-area: block-start span-inline-end;
+    }
+    .dropdown-content-e {
+      position-area: inline-end span-block-end;
+    }
+    .dropdown-content-w {
+      position-area: inline-start span-block-end;
+    }
+  }
+}
+
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

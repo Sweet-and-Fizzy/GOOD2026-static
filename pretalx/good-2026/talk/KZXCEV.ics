@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//KZXCEV
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Open OnDemand Developer Team Open Mic - Emily Moffat Sadeghi [Ohio
+  Supercomputer Center]
+DTSTART;TZID=US/Mountain:20260310T141000
+DTEND;TZID=US/Mountain:20260310T143500
+DTSTAMP:20261020T211127Z
+UID:pretalx-good-2026-KZXCEV@pretalx.com
+DESCRIPTION:Meet with Open OnDemand Dev team members to ask questions abou
+ t the platform and the docs that don’t easily lend themselves to discour
+ se or email. Community members are welcome to chime in on topics outside t
+ he scope of what is deployed at Ohio Supercomputer Center.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/KZXCEV/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//ATV33X
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Simplifying Cloud Computing: Integration of Open OnDemand with O
+ penStack - Andrej Čermák [CESNET]
+DTSTART;TZID=US/Mountain:20260311T110000
+DTEND;TZID=US/Mountain:20260311T112500
+DTSTAMP:20261020T211123Z
+UID:pretalx-good-2026-ATV33X@pretalx.com
+DESCRIPTION:At CESNET we have integrated OpenStack with Open OnDemand\, 
+ enabling users to create and deploy virtual machines\, Kubernetes clusters
+  and applications with minimal effort. In this presentation we will demons
+ trate the full potential of this integration through two concrete use‑ca
+ ses: (1) provisioning a simple OpenStack virtual machine and (2) launching
+  an on‑premises Kubernetes deployment. The talk will highlight the under
+ lying adapter architecture\, share technical insights from the implementat
+ ion\, and discuss current limitations and challenges. The goal is to provi
+ de an overview for any organization that provides OpenStack to its users a
+ nd wishes to support this functionality.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/ATV33X/
+END:VEVENT
+END:VCALENDAR

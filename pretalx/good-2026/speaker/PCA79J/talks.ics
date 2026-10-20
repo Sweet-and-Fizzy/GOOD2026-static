@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//PCA79J
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Evening Attendee Social at Red Butte Garden - Red Butte Garden [30
+ 0 Wakara Way\, Salt Lake City]
+DTSTART;TZID=US/Mountain:20260311T180000
+DTEND;TZID=US/Mountain:20260311T200000
+DTSTAMP:20261020T211056Z
+UID:pretalx-good-2026-VJMGAY@pretalx.com
+DESCRIPTION:Join us at Red Butte Garden\, just a mile from the conference 
+ center\, for an evening of networking and relaxation. Shuttles will be run
+ ning between the conference/hotel and the Red Butte from 5:30 to 9:30. Shu
+ ttle pick up will be right in front of the conference center and hotel.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/VJMGAY/
+END:VEVENT
+END:VCALENDAR

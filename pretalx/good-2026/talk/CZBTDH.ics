@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//CZBTDH
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Open OnDemand in the EuroHPC Federation Platform - Robin Karlsson 
+ [CSC - IT Center for Science]
+DTSTART;TZID=US/Mountain:20260311T133000
+DTEND;TZID=US/Mountain:20260311T135500
+DTSTAMP:20261020T211458Z
+UID:pretalx-good-2026-CZBTDH@pretalx.com
+DESCRIPTION:The EuroHPC Federation Platform is a project to federate acces
+ s to EuroHPC systems\, to make it\neasier for researchers and industry use
+ rs across Europe to access computing resources. Within\nthe project\, a fe
+ derated instance of Open OnDemand has been developed and deployed. It has 
+ many\nunique features and integrations\, such as remote cluster file syste
+ m access\, Kubernetes-native\ndeployment\, and integration of the EESSI so
+ ftware stack.\nThis talk targets system administrators\, service owners\, 
+ and others interested in federation of HPC\nresources or responsible for m
+ aintaining and developing Open OnDemand instances. It discusses\ntechnical
+  details and challenges of providing a single instance of Open OnDemand wh
+ ich is\nconnected to multiple supercomputers at external organizations.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/CZBTDH/
+END:VEVENT
+END:VCALENDAR

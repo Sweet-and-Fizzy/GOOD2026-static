@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//QCXKNS
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Domain-Aware Workflow Monitoring in Open OnDemand - Owen Schillaci
+  [Texas A&M University]
+DTSTART;TZID=US/Mountain:20260311T110000
+DTEND;TZID=US/Mountain:20260311T112500
+DTSTAMP:20261020T211047Z
+UID:pretalx-good-2026-DSFY7V@pretalx.com
+DESCRIPTION:Researchers rely on Open OnDemand (OOD) to design\, launch\, a
+ nd manage scientific workflows on high performance computing (HPC) systems
+ . In addition to job creation and submission\, this process also includes 
+ monitoring job progress. OOD provides the job-listing app and session card
+ s for monitoring running jobs. However\, these tools primarily provide sch
+ eduler-level information\, forcing researchers to manually retrieve workfl
+ ow and domain-specific information. Drona Workflow Engine bridges this gap
+  by providing integrated\, domain-specific monitoring throughout the workf
+ low lifecycle. In this presentation\, we will focus on job-monitoring capa
+ bilities and explore various types of job monitoring integrated into the r
+ epresentative\, commonly used scientific workflows.
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/DSFY7V/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Wizard for Complexity: Inspiring New UI/UX for HPC Applications 
+ - Sahil Vartak [Texas A&M University]\, Owen Schillaci [Texas A&M Universi
+ ty]
+DTSTART;TZID=US/Mountain:20260311T163000
+DTEND;TZID=US/Mountain:20260311T164000
+DTSTAMP:20261020T211047Z
+UID:pretalx-good-2026-DEVBWX@pretalx.com
+DESCRIPTION:LAMMPS's complex\, non-uniform GPU feature support creates a d
+ ilemma: users struggle to find a compatible build\, leading to wasted time
+ \, admin overload\, and underutilized GPUs (e.g.\, Intel Max). We present 
+ an intelligent\, wizard-style utility that performs **automatic three-way 
+ matchmaking** between available LAMMPS software builds\, GPU accelerators
+ \, and user input requirements. The utility suggests optimal\, GPU-acceler
+ ated builds and clearly explains why others are incompatible. Built atop t
+ he Drona job launcher\, the wizard uses dynamically repopulating menus to 
+ guide users through the selection process\, and finally injects the full c
+ onfiguration directly into a ready-to-run Slurm job script.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/DEVBWX/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//KPMTKJ
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Introduction to Appverse - Dhruv Chakravorty [Princeton]\, Lissie 
+ Fein [Sweet and Fizzy]\, Sean Anderson [Wake Forest University]
+DTSTART;TZID=US/Mountain:20260310T103000
+DTEND;TZID=US/Mountain:20260310T105500
+DTSTAMP:20261020T211105Z
+UID:pretalx-good-2026-BUBJET@pretalx.com
+DESCRIPTION:Discover the Appverse—a growing\, community-driven catalog o
+ f Open OnDemand app configurations designed to make app deployment across 
+ HPC environments more consistent\, reusable\, and efficient.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/BUBJET/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Job Sharing Between Users with Multitenant Apps - Sean Anderson [W
+ ake Forest University]
+DTSTART;TZID=US/Mountain:20260311T130000
+DTEND;TZID=US/Mountain:20260311T132500
+DTSTAMP:20261020T211105Z
+UID:pretalx-good-2026-YJEYT9@pretalx.com
+DESCRIPTION:The Multitenant Apps framework was developed for supporting LL
+ Ms\, databases\, and other services on traditional\, job-based HPC infrast
+ ructure through Open OnDemand (OOD). It allows for controlled and secure s
+ haring of these services between select users\, and can greatly reduce har
+ dware overhead since users share the same resources. It is also an effecti
+ ve method for delivering content to users within the OOD interface\, which
+  is especially useful within classrooms\, research groups\, and even depar
+ tments. Featuring an interactive demo!
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/YJEYT9/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Appverse: Contributing and Best-Practices - Lissie Fein [Sweet and
+  Fizzy]\, Sean Anderson [Wake Forest University]
+DTSTART;TZID=US/Mountain:20260312T093000
+DTEND;TZID=US/Mountain:20260312T095500
+DTSTAMP:20261020T211105Z
+UID:pretalx-good-2026-FPQHRW@pretalx.com
+DESCRIPTION:
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/FPQHRW/
+END:VEVENT
+END:VCALENDAR

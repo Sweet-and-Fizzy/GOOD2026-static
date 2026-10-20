@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//3TXSS3
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:The Open OnDemand in the Classroom Affinity Group BoF - Karen Tomk
+ o [Ohio Supercomputer Center]
+DTSTART;TZID=US/Mountain:20260310T170000
+DTEND;TZID=US/Mountain:20260310T183000
+DTSTAMP:20261020T211449Z
+UID:pretalx-good-2026-3TXSS3@pretalx.com
+DESCRIPTION:This Birds-of-a-Feather (BoF) session is for GOOD attendees in
+ terested in Open OnDemand (OOD) for instructional use. With rising demand 
+ for centralized computing in education\, OOD’s web interface helps instr
+ uctors and students access high-end resources easily. The BoF will feature
+  presentations on OOD customizations for teaching\, interactive demos\, an
+ d Q&A\, fostering community discussion and sharing of adaptable solutions.
+  Attendees will connect with peers and learn techniques for classroom and 
+ broader OOD use.\n\nInvited Speakers: \n - Martin Cuma [University of Utah
+ ]\n - Sean Anderson [Wake Forest University]
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/3TXSS3/
+END:VEVENT
+END:VCALENDAR

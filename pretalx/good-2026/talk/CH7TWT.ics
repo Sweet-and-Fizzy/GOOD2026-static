@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//CH7TWT
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Repurposed Hardware to Modern Research: Deploying projectEUREKA! O
+ pen OnDemand and Kubernetes - Boyd Wilson [Omnibond]
+DTSTART;TZID=US/Mountain:20260311T130000
+DTEND;TZID=US/Mountain:20260311T132500
+DTSTAMP:20261020T211124Z
+UID:pretalx-good-2026-CH7TWT@pretalx.com
+DESCRIPTION:As AI\, HPC\, and data-intensive research workloads continue t
+ o grow\, many institutions face a common challenge: how to modernize resea
+ rch computing environments without replacing existing infrastructure\, exp
+ anding staff\, or locking into proprietary platforms. This talk presents a
+  real-world case study of deploying projectEUREKA! with integrated Open On
+ Demand\, an AI and HPC orchestration platform on Kubernetes\, using a repu
+ rposed on-premises HPC cluster at Texas A&M University–San Antonio (TAMU
+ SA).\nWe describe how Kubernetes was used as a local orchestration layer\,
+  enabling flexible\, project-centric workflows across resources\, while pr
+ oviding a browser-based experience. Demonstrates how institutions can exte
+ nd the life of existing hardware\, simplify user access\, and support mode
+ rn workflows.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/CH7TWT/
+END:VEVENT
+END:VCALENDAR

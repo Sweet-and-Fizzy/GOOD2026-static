@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//KRZGQ9
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:HPC Desktops — A Different Kind of Interactive Supercomputing - 
+ Robert Henschel [Cendio]
+DTSTART;TZID=US/Mountain:20260310T130000
+DTEND;TZID=US/Mountain:20260310T132500
+DTSTAMP:20261020T211457Z
+UID:pretalx-good-2026-KRZGQ9@pretalx.com
+DESCRIPTION:Imagine having access to a centrally hosted environment that c
+ ombines the power of HPC systems with the convenience of desktops. This is
+  the HPC Desktop\, designed to lower the barrier of entry and broaden adop
+ tion of HPC systems.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/KRZGQ9/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//ZNEX8V
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:STANDARD
+DTSTART:20250309T000000
+TZNAME:MST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20250309T030000
+RDATE:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Contributor Jam - Travis Ravert [Ohio Supercomputer Center]\, Brae
+ den Singleton [Ohio Supercomputer Center]
+DTSTART;TZID=US/Mountain:20260309T130000
+DTEND;TZID=US/Mountain:20260309T170000
+DTSTAMP:20261020T211124Z
+UID:pretalx-good-2026-ZNEX8V@pretalx.com
+DESCRIPTION:What is the Contributor Jam? | The Contributor Jam will offer 
+ attendees an immersive opportunity to work closely with Open OnDemand (OOD
+ ) developers. Participants will gain an understanding of OOD's components 
+ and leave with the knowledge and tools to contribute to its development.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/ZNEX8V/
+END:VEVENT
+END:VCALENDAR

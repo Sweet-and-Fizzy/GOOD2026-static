@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//UKAQCF
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Bridging AI and Biomedical Workflows via Containerized Apps in Ope
+ n OnDemand - Shane Corder [Moffitt Cancer Center]
+DTSTART;TZID=US/Mountain:20260311T133000
+DTEND;TZID=US/Mountain:20260311T135500
+DTSTAMP:20261020T211500Z
+UID:pretalx-good-2026-UKAQCF@pretalx.com
+DESCRIPTION:HPC faces a dual challenge of supporting AI/ML engineers along
+ side domain-specific researchers who may lack Linux expertise. This presen
+ tation explores leveraging OOD as a unified gateway for cancer research an
+ d AI/ML pipelines. We detail our technical strategy of configuring OOD int
+ eractive applications to launch and manage Apptainer containers. This stra
+ tegy delivers portable\, reproducible\, and version-controlled software st
+ acks - from GPU-accelerated PyTorch environments to GUI-based biomedical v
+ isualization tools\, effectively democratizing access to HPC by abstractin
+ g the complexity of the container runtime and Slurm. We share how this app
+ roach provides a low entry barrier for oncologists/biologists\, environmen
+ tal consistency for AI experts\, and reduces support burden.
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/UKAQCF/
+END:VEVENT
+END:VCALENDAR

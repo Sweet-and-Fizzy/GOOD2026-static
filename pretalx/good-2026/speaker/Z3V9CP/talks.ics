@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//Z3V9CP
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Accessible LLM Inference via Open OnDemand - Keegan [Texas A&M Uni
+ versity]
+DTSTART;TZID=US/Mountain:20260311T164000
+DTEND;TZID=US/Mountain:20260311T165000
+DTSTAMP:20261020T211035Z
+UID:pretalx-good-2026-DDCDPV@pretalx.com
+DESCRIPTION:Large language models are now a common tool for writing code a
+ nd exploring ideas\, but using them on HPC systems can still be a challeng
+ e. To make this simpler\, I built an interactive Open OnDemand application
+  that lets users access a local LLM directly inside Jupyter Notebook using
+  the Jupyter AI extension. Behind the scenes\, user requests are routed th
+ rough a load balancer to a pool of vLLM inference servers running on Intel
+  GPUs\, which serve open-source models up to 70B parameters.\n\nIn this ta
+ lk\, I’ll walk through how the system works\, why we built it\, and how 
+ it gives researchers easy\, reliable access to LLM assistance without rely
+ ing on external cloud services.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/DDCDPV/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auto Machine Learning on Open OnDemand - Keegan [Texas A&M Univers
+ ity]
+DTSTART;TZID=US/Mountain:20260311T165000
+DTEND;TZID=US/Mountain:20260311T170000
+DTSTAMP:20261020T211035Z
+UID:pretalx-good-2026-XNUVDC@pretalx.com
+DESCRIPTION:Machine learning now plays a very important role in a wide ran
+ ge of scientific fields. However many researchers in these scientific fiel
+ ds don't have machine learning expertise and may find it difficult to trai
+ n a machine learning model themselves. \nAuto machine learning bridges thi
+ s gap by making it very simple to train a state of the art model. Auto mac
+ hine learning frameworks like AutoGluon make it such that all you need is 
+ a dataset and a few lines of code.  \nThe interactive application that I h
+ ave developed for Open OnDemand closes the gap further by not requiring th
+ e user to write any code at all. Through our application\, users can simpl
+ y choose a dataset and their configuration\, and train the model.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/XNUVDC/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//PKB37G
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:An Intuitive\, Extensible Open OnDemand Dashboard for Job Accounti
+ ng and Performance Metrics - Richie Tan [Purdue]
+DTSTART;TZID=US/Mountain:20260311T172000
+DTEND;TZID=US/Mountain:20260311T173000
+DTSTAMP:20261020T211456Z
+UID:pretalx-good-2026-PKB37G@pretalx.com
+DESCRIPTION:High-performance computing allows researchers across the globe
+  to conduct research at scale. At Purdue University\, Open OnDemand provid
+ es an easy way for users to access cluster resources and launch popular ap
+ plications with minimal barriers. In order to improve how users interact w
+ ith clusters\, we are building a user-friendly\, modular web dashboard on 
+ Open OnDemand with detailed\, organized cluster information and color-code
+ d visualizations. By combining Slurm-based data sources and modular widget
+ s and components\, this dashboard allows researchers to access cluster inf
+ ormation about their jobs and allocations easily and provides a modular\, 
+ extensible framework to install on any Slurm-based cluster.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/PKB37G/
+END:VEVENT
+END:VCALENDAR

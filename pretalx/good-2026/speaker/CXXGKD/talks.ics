@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//CXXGKD
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Supporting Interactive Graphical Applications with Open OnDemand\,
+  on Premise and in Azure - Xavier Pillons [Microsoft]\, Robert Henschel [C
+ endio]
+DTSTART;TZID=US/Mountain:20260310T153000
+DTEND;TZID=US/Mountain:20260310T170000
+DTSTAMP:20261020T211115Z
+UID:pretalx-good-2026-UDNQYU@pretalx.com
+DESCRIPTION:This BoF brings together users and resource providers that are
+  interested in running interactive graphical applications in Open OnDemand
+ . This can be web applications like Jupyter Notebooks or desktop applicati
+ ons like RStudio\, Matlab or Visual Studio Code.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/UDNQYU/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Zero to Productive: Open OnDemand on Azure CycleCloud for Slu
+ rm-with Entra ID\,VS Code\,AI Agents - Xavier Pillons [Microsoft]
+DTSTART;TZID=US/Mountain:20260311T113000
+DTEND;TZID=US/Mountain:20260311T115500
+DTSTAMP:20261020T211115Z
+UID:pretalx-good-2026-QXWWZH@pretalx.com
+DESCRIPTION:Open OnDemand (OOD) provides researchers with a streamlined\, 
+ browser-based HPC experience. This session covers deploying and operating 
+ OOD on Azure CycleCloud Workspace for Slurm\, including provisioning the O
+ OD VM\, integrating Microsoft Entra ID with OpenID Connect and federated c
+ redentials\, and auto-registering Slurm clusters for dynamic partition dis
+ covery. We'll demo browser-based VS Code for interactive development\, exp
+ lore when to use Cendio ThinLinc for enhanced visualization\, and show how
+  AI Agents like GitHub Copilot inside VS Code can rapidly build new OOD ap
+ ps and templates.
+LOCATION:Breakout Room
+URL:https://pretalx.com/good-2026/talk/QXWWZH/
+END:VEVENT
+END:VCALENDAR

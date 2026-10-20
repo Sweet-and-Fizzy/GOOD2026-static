@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//DP9HCX
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250310T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:HPC Desktops — A Different Kind of Interactive Supercomputing - 
+ Robert Henschel [Cendio]
+DTSTART;TZID=US/Mountain:20260310T130000
+DTEND;TZID=US/Mountain:20260310T132500
+DTSTAMP:20261020T211059Z
+UID:pretalx-good-2026-KRZGQ9@pretalx.com
+DESCRIPTION:Imagine having access to a centrally hosted environment that c
+ ombines the power of HPC systems with the convenience of desktops. This is
+  the HPC Desktop\, designed to lower the barrier of entry and broaden adop
+ tion of HPC systems.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/KRZGQ9/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Supporting Interactive Graphical Applications with Open OnDemand\,
+  on Premise and in Azure - Xavier Pillons [Microsoft]\, Robert Henschel [C
+ endio]
+DTSTART;TZID=US/Mountain:20260310T153000
+DTEND;TZID=US/Mountain:20260310T170000
+DTSTAMP:20261020T211059Z
+UID:pretalx-good-2026-UDNQYU@pretalx.com
+DESCRIPTION:This BoF brings together users and resource providers that are
+  interested in running interactive graphical applications in Open OnDemand
+ . This can be web applications like Jupyter Notebooks or desktop applicati
+ ons like RStudio\, Matlab or Visual Studio Code.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/UDNQYU/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Supporting Interactive Graphical Applications with ThinLinc in Ope
+ n OnDemand - Robert Henschel [Cendio]\, Mattias Reuterskiöld [Cendio]
+DTSTART;TZID=US/Mountain:20260311T153000
+DTEND;TZID=US/Mountain:20260311T155500
+DTSTAMP:20261020T211059Z
+UID:pretalx-good-2026-TDP7YW@pretalx.com
+DESCRIPTION:This session will introduce ThinLinc and how to use it togethe
+ r with Open OnDemand. ThinLinc is a Linux terminal server solution that is
+  used at HPC centers around the world to support access to interactive gra
+ phical Linux applications. The ThinLinc team is working with the OOD team 
+ to integrate ThinLinc into OOD and this session will go over the technical
+  work as well as the features of the integration. This session will also i
+ nclude a demo of the current beta release.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/TDP7YW/
+END:VEVENT
+END:VCALENDAR

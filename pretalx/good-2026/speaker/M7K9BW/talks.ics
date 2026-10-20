@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//speaker//M7K9BW
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:MATLAB + OOD: Parallel Computing and GenAI with MATLAB Copilot - N
+ ick Choi [MathWorks]\, Lisa Kempler [MathWorks]
+DTSTART;TZID=US/Mountain:20260311T100000
+DTEND;TZID=US/Mountain:20260311T102500
+DTSTAMP:20261020T211047Z
+UID:pretalx-good-2026-FDKCP9@pretalx.com
+DESCRIPTION:Since GOOD 2025\, more HPC Centers have been adopting Open OnD
+ emand. Many sites have integrated MATLAB. Learn what’s new and which too
+ ls sites are offering\, including:\n-	Browser-based access to full MATLAB
+ \, including GPU and parallel computing tools \n-	MATLAB Copilot for GenAI
+ -assisted coding and simulation in cloud and desktop  \n-	MATLAB MCP Core 
+ Server for integrating MATLAB with agentic AIs
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/FDKCP9/
+END:VEVENT
+END:VCALENDAR

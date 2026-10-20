@@ -1,0 +1,1488 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- Made with love by pretalx v2026.3.0.dev0. -->
+<schedule>
+    <generator name="pretalx" system="pretalx.com" version="2026.3.0.dev0" />
+    <version>0.24</version>
+    <conference>
+        <title>GOOD 2026</title>
+        <acronym>good-2026</acronym>
+        <start>2026-03-09</start>
+        <end>2026-03-12</end>
+        <days>4</days>
+        <timeslot_duration>00:05</timeslot_duration>
+        <base_url>https://pretalx.com</base_url>
+        
+        <time_zone_name>US/Mountain</time_zone_name>
+        
+        
+        <track name="Platform Track" slug="6514-platform-track"  color="#7a685b" />
+        
+        <track name="Reception" slug="6515-reception"  color="#0076af" />
+        
+        <track name="Application Track" slug="6516-application-track"  color="#db6524" />
+        
+        <track name="Sponsor Talk" slug="6517-sponsor-talk"  color="#2bb519" />
+        
+        <track name="Birds-of-a-Feather (BoFs)" slug="6518-birds-of-a-feather-bofs"  color="#bd79fb" />
+        
+        <track name="Tutorial" slug="6519-tutorial"  color="#bd79fb" />
+        
+        <track name="Platinum Sponsor Talk" slug="6520-platinum-sponsor-talk"  color="#ff2172" />
+        
+        <track name="Platform Track [featuring AI OnDemand]" slug="6521-platform-track-featuring-ai-ondemand"  color="#7a685b" />
+        
+        <track name="Application Track [featuring AI OnDemand]" slug="6522-application-track-featuring-ai-ondemand"  color="#db6524" />
+        
+        <track name="Core Team Track" slug="6523-core-team-track"  color="#1aa6ea" />
+        
+        <track name="Core Team Track [featuring AI OnDemand]" slug="6524-core-team-track-featuring-ai-ondemand"  color="#1aa6ea" />
+        
+        <track name="Posters" slug="6525-posters"  color="#9b2732" />
+        
+        <track name="Posters [featuring AI OnDemand]" slug="6526-posters-featuring-ai-ondemand"  color="#9b2732" />
+        
+        <track name="Platinum Sponsor Talk [featuring AI OnDemand]" slug="6527-platinum-sponsor-talk-featuring-ai-ondemand"  color="#ff2172" />
+        
+    </conference>
+    <day index='1' date='2026-03-09' start='2026-03-09T04:00:00-06:00' end='2026-03-10T03:59:00-06:00'>
+        <room name='Main Hall' guid='1f3ac6d4-442e-525d-8c07-1776a3ed8691'>
+            <event guid='f550b415-cdb4-53d0-b5ad-c55cee7e2a5a' id='89865' code='ZNEX8V'>
+                <room>Main Hall</room>
+                <title>Contributor Jam</title>
+                <subtitle></subtitle>
+                <type>Contributor Jam</type>
+                <date>2026-03-09T13:00:00-06:00</date>
+                <start>13:00</start>
+                <duration>04:00</duration>
+                <abstract>What is the Contributor Jam? | The Contributor Jam will offer attendees an immersive opportunity to work closely with Open OnDemand (OOD) developers. Participants will gain an understanding of OOD&apos;s components and leave with the knowledge and tools to contribute to its development.</abstract>
+                <slug>good-2026-89865-contributor-jam</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='90260'>Travis Ravert [Ohio Supercomputer Center]</person><person id='90261'>Braeden Singleton [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>Required programming level | Attendees of all programming levels and experience are invited to participate. There will be something for everyone. 
+
+What to bring | Your laptop, fully charged
+
+Highlights:
+1) Explore the Building Blocks of OOD
+  - Dive into key repositories: ondemand, ood_core, ood-documentation, and learn how they interconnect.
+  - Understand the dashboard and its role within OOD.
+  - Familiarize yourself with all the OnDemand Ruby gems&#8212;and more!
+
+2) Contribute
+  - Learn how to make pull requests across multiple OnDemand repositories.
+  - Discover the development tools and dev files designed to simplify the process.
+  - Navigate the contributor guides for seamless onboarding.
+  
+3) Demonstrate and Learn
+  - Witness OOD&apos;s functionality in action, including its support for schedulers, OS compatibility, and applications.
+  - Deepen your understanding of the OOD documentation.
+
+4) Take Home Resources
+  - Leave with a cheat sheet crafted by the OOD developers, packed with practical tips and shortcuts.
+
+Free to attend for conference ticket holders. Register your participation during conference registration. 
+
+Questions | Email info@good.openondemand.org with any questions about participating in the Contributor Jam.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/ZNEX8V/</url>
+                <feedback_url></feedback_url>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='2' date='2026-03-10' start='2026-03-10T04:00:00-06:00' end='2026-03-11T03:59:00-06:00'>
+        <room name='Main Hall' guid='1f3ac6d4-442e-525d-8c07-1776a3ed8691'>
+            <event guid='8b57c2cf-35a3-5af3-8917-cb35d7868bf4' id='89973' code='WT38LY'>
+                <room>Main Hall</room>
+                <title>Kickoff + GOOD Plenary - &quot;So Far, So GOOD: Open OnDemand&#8217;s Journey and Future Direction&quot;</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T10:00:00-06:00</date>
+                <start>10:00</start>
+                <duration>00:25</duration>
+                <abstract>Welcome to GOOD 2026!</abstract>
+                <slug>good-2026-89973-kickoff-good-plenary-so-far-so-good-open-ondemand-s-journey-and-future-direction</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='90366'>Alan Chalker [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>The GOOD Conference opens with a short kickoff session to welcome attendees, introduce the conference structure, and share key information to help everyone get oriented. The session includes brief remarks from Alan Chalker, who will reflect on the project&#8217;s evolution and looking ahead to the future of the Open OnDemand community.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/WT38LY/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='42676aef-cf28-5b3b-939d-26bdfb2b9e41' id='90280' code='BUBJET'>
+                <room>Main Hall</room>
+                <title>Introduction to Appverse</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T10:30:00-06:00</date>
+                <start>10:30</start>
+                <duration>00:25</duration>
+                <abstract>Discover the Appverse&#8212;a growing, community-driven catalog of Open OnDemand app configurations designed to make app deployment across HPC environments more consistent, reusable, and efficient.</abstract>
+                <slug>good-2026-90280-introduction-to-appverse</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='90637'>Dhruv Chakravorty [Princeton]</person><person id='91434'>Lissie Fein [Sweet and Fizzy]</person><person id='86878'>Sean Anderson [Wake Forest University]</person>
+                </persons>
+                <language>en</language>
+                <description>In this 25-minute session, we&#8217;ll share the vision behind the Appverse, how it works, current and future goals, and how centers and developers can contribute and benefit. Learn how the Appverse supports discoverability, reduces duplication of effort, and helps improve the overall user experience&#8212;while strengthening collaboration across institutions.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/BUBJET/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='7a96d131-7f71-5aca-8415-3c0a9d9fcb29' id='86674' code='CFFQDM'>
+                <room>Main Hall</room>
+                <title>OnDemand Andragogy</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T11:00:00-06:00</date>
+                <start>11:00</start>
+                <duration>00:25</duration>
+                <abstract>Open OnDemand enables the execution of passenger applications, which can be utilized for self-paced learning and andragogy through GenAI-powered tools. The GenAI tutor paradigm can now be accessible on demand, within the same platform, to support a variety of user needs as soon as they arise. Open OnDemand passenger applications could enable guidance on basic coding, instructions for submitting jobs with different schedulers, &quot;chatting&quot; with available documentation, and accessing vital information via microservices such as resource availability, job-specific information, and efficiency reports.</abstract>
+                <slug>good-2026-86674-ondemand-andragogy</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87649'>Kyriakos Tsoukalas [Colgate University]</person>
+                </persons>
+                <language>en</language>
+                <description>Open OnDemand is a web-based platform designed for users to access high-performance computing (HPC) resources, such as supercomputers or clusters, remotely and interactively. Research computing includes frameworks, such as Open OnDemand, that lower the barrier of entry to high-performance computing for users. The abstraction and automation of research workflows enable flexible ways of conducting computational research via solutions that can cater to diverse computing backgrounds and needs, while hiding many of the complexities of resource and data management. However, as new users think of more complex research workflows, the lack of computational knowledge may become a barrier again. Today, generative AI (GenAI) technology offers sophisticated tutoring capabilities and real-time guidance. By combining the capabilities of Open OnDemand with GenAI-powered tools and microservices tailored to institutional computing clusters, information important for decisions, and self-learning experiences can be made more accessible just-in-time when they are needed to enable more research activities. Passenger apps in the Open OnDemand framework may transform the way researchers without strong computational backgrounds approach self-paced learning and enable andragogy for more efficient use of computational and storage resources.
+
+
+- Examples of helpful utilities and microservices in Open OnDemand
+
+Submit jobs via a user-friendly interface.
+Review available resources for advanced job placement and resource requests.
+Visualize job efficiency reports.
+Submit a request that will be processed automatically.
+Encrypt/Decrypt files and folders
+
+- Self-Paced Learning
+The GenAI tutor paradigm not only provides information that can debug problems, suggest alternative approaches, and point out relevant online documentation, it also engages users in learning-by-doing through maintaining their self-motivation to problem solve. Besides &quot;chatting&quot; with documentation, GenAI can help generate scenarios, relevant questions, and explanations of correct answers to enable user-defined and self-paced learning. 
+
+- Generative AI and the GenAI Tutor Paradigm
+A service with 24/7 availability and accessibility with the goal of helping when users are actively seeking to learn how to solve problems they face. The use of passenger applications could offer a multi-layered approach to HPC andragogy by providing guidance with potential contextual awareness of the specific systems they are deployed in.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/CFFQDM/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='f342485b-0752-5bf1-b338-5dad6d59b406' id='86298' code='AWC8QJ'>
+                <room>Main Hall</room>
+                <title>Building LLM Inference Services for Researchers on HPC with Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T11:30:00-06:00</date>
+                <start>11:30</start>
+                <duration>00:25</duration>
+                <abstract>We share how we built LLM inference services for researchers at Ohio Supercomputer Center (OSC) using Open OnDemand. Our users need LLMs in many different ways, so we support several service models. We started with an Ollama module on the cluster, added OpenWebUI, and later created dedicated OnDemand apps that start the LLM server and give users a simple interface. We also provide a Jupyter + Ollama app that exposes an OpenAI API interface in a Jupyter kernel. We maintain shared models so users can start quickly, while still allowing local models. We have also deployed the Ollama + OpenWebUI service on our Kubernetes cluster, but scaling it for a large number of users remains a challenge. We plan to add additional LLM engines and front-ends as part of our future improvements as well.</abstract>
+                <slug>good-2026-86298-building-llm-inference-services-for-researchers-on-hpc-with-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87338'>Heechang Na [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>In this talk, we describe our efforts to provide LLM inference services for researchers at Ohio Supercomputer Center (OSC). Many of our users want to run LLMs, but they have a wide variety of workflows and tool preferences. Our goal has been to support these needs in a simple and reliable way, using Open OnDemand as the main entry point. 
+
+We started by installing an Ollama module on our HPC cluster that includes OpenWebUI and a few wrappers for easy use. Users can start an OnDemand virtual desktop session, download models, start an Ollama server, and run OpenWebUI to access the interface in a browser. At this point, it should support all the workflows users need, but it is still not accessible enough for most users. 
+
+To make this more accessible, we built a dedicated OnDemand app for Ollama. When launched, it starts an Ollama server for the user and opens a browser with the OpenWebUI interface. This made the system much more accessible, although it does not scale well because each user session runs on its own compute node. 
+
+We also created a Jupyter + Ollama app. This app does not use OpenWebUI. Instead, it launches a Jupyter session with an Ollama server running in the background. Through a Jupyter kernel, users can access the OpenAI API interface. This works well for users who want to test the code and run inference batch jobs. 
+
+To reduce friction further, we updated our module so that several popular models are stored in a central location. Users can start quickly without downloading anything, but they can still download additional models into their home or project directories. 
+
+We have also deployed generative AI services on our Kubernetes cluster. This includes both LLM inference and a stable diffusion service. These run well for small numbers of users, but the cost of running many user sessions is high, and we do not yet have a scalable deployment model. A major part of our future work is building a more scalable LLM service on Kubernetes. To date, we have deployed a core set of tools (Ollama, OpenWebUI, and OpenAI API) and plan to expand these options. Initial tests have shown very promising results.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/AWC8QJ/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='ba7b7bf4-4092-59c8-9c09-963459922607' id='93071' code='KRZGQ9'>
+                <room>Main Hall</room>
+                <title>HPC Desktops &#8212; A Different Kind of Interactive Supercomputing</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T13:00:00-06:00</date>
+                <start>13:00</start>
+                <duration>00:25</duration>
+                <abstract>Imagine having access to a centrally hosted environment that combines the power of HPC systems with the convenience of desktops. This is the HPC Desktop, designed to lower the barrier of entry and broaden adoption of HPC systems.</abstract>
+                <slug>good-2026-93071-hpc-desktops-a-different-kind-of-interactive-supercomputing</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='86831'>Robert Henschel [Cendio]</person>
+                </persons>
+                <language>en</language>
+                <description>This talk provides an architectural overview, use cases, and experiences of operating such an environment. The broader scope of HPC Desktops will be discussed, and the talk will make the case that such systems should be deployed more widely.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/KRZGQ9/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='ee7978e6-2693-5410-bf57-89e7cb92c43d' id='86306' code='KGGGH3'>
+                <room>Main Hall</room>
+                <title>Using what I learned at GOOD25 to improve our center&#8217;s user experience</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-10T13:30:00-06:00</date>
+                <start>13:30</start>
+                <duration>00:10</duration>
+                <abstract>The GOOD25 conference served as a significant platform for advancing knowledge beyond the fundamentals of Open OnDemand. Numerous presenters introduced tools and strategies aimed at extending the capabilities of the OnDemand portal and enhancing the overall user experience within high-performance computing (HPC) environments. This presentation will analyze several of the most influential approaches highlighted during the event and discuss their successful integration into our center&#8217;s operations over the past year.</abstract>
+                <slug>good-2026-86306-using-what-i-learned-at-good25-to-improve-our-center-s-user-experience</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87345'>Dori Sajdak [University at Buffalo]</person>
+                </persons>
+                <language>en</language>
+                <description>The University at Buffalo Center for Computational Research (UBCCR) has been using the OnDemand portal for nearly 10 years.  In collaboration with the Ohio Supercomputer Center (OSC), UBCCR integrated XDMoD analytics into the OnDemand dashboard to display job metrics and efficiency factors.  However, aside from small configurations to OnDemand interactive apps and branding, we&#8217;ve made no other modifications to the application.  The author attended the GOOD25 conference with the goal of learning how to tailor OnDemand to improve the experience for UBCCR&#8217;s HPC users. The event proved invaluable, beginning with the Contributor Jam and continuing through dynamic daily developer forums hosted by OSC. Surprisingly, some of the most impactful insights came from other OnDemand users, who shared how they customized the software, developed advanced interactive applications, and integrated external tools. This presentation will highlight how UBCCR leveraged the generosity and expertise of the Open OnDemand community to enhance user experience and optimize HPC cluster utilization. The core focus will be a new workflow that enables users to check compute node availability via the Slurm dashboard (https://www.slurmdash.com/) developed by Arizona State University, and then monitor jobs and evaluate efficiency using the Jobstats tool and Grafana charts from Princeton (https://github.com/PrincetonUniversity/jobstats). Additionally, we will share how small but strategic improvements to interactive apps - based on insights from Tufts and Harvard - significantly benefited our bioinformatics users. Beyond tools and technical enhancements, this talk will underscore the collaborative opportunities fostered by GOOD25 and how those conversations have enabled UBCCR to deliver a more streamlined and user-focused HPC experience.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/KGGGH3/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='dbd8c6ec-1c2a-509a-a010-b7ac7ff6614f' id='90283' code='UVSVHF'>
+                <room>Main Hall</room>
+                <title>Appverse: Companion Apps</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T13:40:00-06:00</date>
+                <start>13:40</start>
+                <duration>00:25</duration>
+                <abstract>Explore how companion apps featured in the Appverse can extend the power of your Open OnDemand deployment.</abstract>
+                <slug>good-2026-90283-appverse-companion-apps</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='91432'>William Horka [Harvard]</person><person id='91433'>Marinus Pennings [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                <description>This session highlights Open OnDemand Loop (OnDemand Loop), which streamlines data movement between HPC clusters and external repositories such as Dataverse and Zenodo, and Drona Composer, developed by Texas A&amp;M HPRC, which enables researchers to build and submit simple or complex multi-stage jobs through a fully graphical interface.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/UVSVHF/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='4f28e90c-93ad-5f73-a1bb-92f09236a081' id='86196' code='KZXCEV'>
+                <room>Main Hall</room>
+                <title>Open OnDemand Developer Team Open Mic</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T14:10:00-06:00</date>
+                <start>14:10</start>
+                <duration>00:25</duration>
+                <abstract>Meet with Open OnDemand Dev team members to ask questions about the platform and the docs that don&#8217;t easily lend themselves to discourse or email. Community members are welcome to chime in on topics outside the scope of what is deployed at Ohio Supercomputer Center.</abstract>
+                <slug>good-2026-86196-open-ondemand-developer-team-open-mic</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87206'>Emily Moffat Sadeghi [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>Last year at GOOD 25, the development team led essentially open mic sessions with the attendees on whatever questions or concerns they had in mind.  This led to incredible discussion and insight from things that ranged from applications to intricate security questions to requested features and to questions about how OOD is developed or designed.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/KZXCEV/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='514baf31-0ec9-577e-9feb-5542fa8b89a7' id='90288' code='7JCJ3B'>
+                <room>Main Hall</room>
+                <title>Community and Governance</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T14:35:00-06:00</date>
+                <start>14:35</start>
+                <duration>00:25</duration>
+                <abstract></abstract>
+                <slug>good-2026-90288-community-and-governance</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='90639'>Julie Ma [Massachusetts Green High Performance Computing Center]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/7JCJ3B/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='e4ac90b1-2a8b-5d53-bd28-56f70a710be1' id='86238' code='UDNQYU'>
+                <room>Main Hall</room>
+                <title>Supporting Interactive Graphical Applications with Open OnDemand, on Premise and in Azure</title>
+                <subtitle></subtitle>
+                <type>Birds-of-a-feather (BoF)</type>
+                <date>2026-03-10T15:30:00-06:00</date>
+                <start>15:30</start>
+                <duration>01:30</duration>
+                <abstract>This BoF brings together users and resource providers that are interested in running interactive graphical applications in Open OnDemand. This can be web applications like Jupyter Notebooks or desktop applications like RStudio, Matlab or Visual Studio Code.</abstract>
+                <slug>good-2026-86238-supporting-interactive-graphical-applications-with-open-ondemand-on-premise-and-in-azure</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87010'>Xavier Pillons [Microsoft]</person><person id='86831'>Robert Henschel [Cendio]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/UDNQYU/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='f7b1bc95-88a5-557e-9db5-4905a360291b' id='86637' code='3TXSS3'>
+                <room>Main Hall</room>
+                <title>The Open OnDemand in the Classroom Affinity Group BoF</title>
+                <subtitle></subtitle>
+                <type>Birds-of-a-feather (BoF)</type>
+                <date>2026-03-10T17:00:00-06:00</date>
+                <start>17:00</start>
+                <duration>01:30</duration>
+                <abstract>This Birds-of-a-Feather (BoF) session is for GOOD attendees interested in Open OnDemand (OOD) for instructional use. With rising demand for centralized computing in education, OOD&#8217;s web interface helps instructors and students access high-end resources easily. The BoF will feature presentations on OOD customizations for teaching, interactive demos, and Q&amp;A, fostering community discussion and sharing of adaptable solutions. Attendees will connect with peers and learn techniques for classroom and broader OOD use.
+
+Invited Speakers: 
+ - Martin Cuma [University of Utah]
+ - Sean Anderson [Wake Forest University]</abstract>
+                <slug>good-2026-86637-the-open-ondemand-in-the-classroom-affinity-group-bof</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87623'>Karen Tomko [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>This Birds-of-a-Feather (BoF) session is for GOOD attendees who are responsible for or interested in Open OnDemand deployments and applications for instructional use cases.
+ 
+At colleges and universities across the country, AI and Data Analytics initiatives, budget constraints, and hybrid and virtual instruction modalities are increasing the demand for access to centralized computing resources for instruction. At the same time, there is an increase in the breadth of disciplines employing these technologies and a growing range of computing experience among both instructors and students in the classroom. The Open OnDemand platform is well suited to supporting this growth. Its familiar web interface reduces the learning curve of using high-end, Linux based servers so that instructors can quickly prepare their experiential assignments, quickly orient students to the platform, and focus class time on course content instead of detailed computing instructions. This BoF aims to facilitate discussion on OOD solutions for the classroom use case and bring together the community of research computing and education technology professionals supporting instructor and student use of OOD in the classroom. 
+ 
+The BoF will consist of a series of presentations on OOD customizations, apps or other extensions for instructional use that community members have developed and used at their institution. Each presentation will include an interactive demonstration of the feature or app, a discussion of the design and implementation of the feature or app and a pointer to any corresponding software and documentation. Each presentation will be followed by Q&amp;A, where attendees will be encouraged to ask technical questions as needed to understand whether the same could be made available at their site and what changes might be needed to do so. We will do our best to identify examples that can be adopted broadly with corresponding speakers involved in the implementation that can address questions at sufficient depth.
+ 
+BoF attendees will learn about the three capabilities presented by our speakers and will have the opportunity to interact with the speakers during the BoF and throughout GOOD&#8217;26 if they have additional questions. They will meet colleagues from other organizations with the shared interest of supporting instructional use of OOD. Lastly, they will be exposed to techniques for customizing OOD that are likely applicable beyond the classroom use case.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/3TXSS3/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='33bd928d-e967-5807-a469-72d464ae0972' id='93072' code='M88GET'>
+                <room>Main Hall</room>
+                <title>Informal Community Meetups (Self-Organized)</title>
+                <subtitle></subtitle>
+                <type>Social Event</type>
+                <date>2026-03-10T19:00:00-06:00</date>
+                <start>19:00</start>
+                <duration>02:00</duration>
+                <abstract>A few informal meetup spots have been suggested for this evening. These are not official conference events, just casual places where GOOD attendees may choose to gather.</abstract>
+                <slug>good-2026-93072-informal-community-meetups-self-organized</slug>
+                <track></track>
+                
+                <persons>
+                    
+                </persons>
+                <language>en</language>
+                <description>Two nearby spots that people may be heading to include Squatters Pub Brewery and The Green Pig Pub. To help people find each other, feel free to post in the conference Slack or coordinate during the Idea Market if you&#8217;re planning to head to one of these spots so others can join you.
+
+ - Squatters Pub Brewery Downtown SLC, 147 W Broadway
+ - The Green Pig, 31 E 400 S, Salt Lake City, UT 84111</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/M88GET/</url>
+                <feedback_url></feedback_url>
+            </event>
+            
+        </room>
+        <room name='Breakout Room' guid='06b46176-719c-5589-985a-413f918d7cc0'>
+            <event guid='7d5b599e-a4b5-5c1f-bd37-f502eab60be0' id='86357' code='H83SAP'>
+                <room>Breakout Room</room>
+                <title>Streamlining LLM access for teaching, research and learning via OpenOnDemand at Tufts</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T11:00:00-06:00</date>
+                <start>11:00</start>
+                <duration>00:25</duration>
+                <abstract>We have streamlined LLM access on Tufts University&#8217;s HPC Cluster through Open OnDemand (OOD), enhancing AI use in research, teaching, and learning.  We present a standardized toolkit of OOD applications: Research Chatbot (OpenWebUI + Ollama), LLM Notebooks (Jupyter + Ollama) and AI Image Generators (StableDiffusion, ComfyUI). Participants will gain insights into improving LLM accessibility via the OOD interface, comparing local and cloud based approaches for compute, aligning LLM tools with research needs, and lessons learned from deployment. Code, slides, and documentation will be available via GitHub.</abstract>
+                <slug>good-2026-86357-streamlining-llm-access-for-teaching-research-and-learning-via-openondemand-at-tufts</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87419'>Kyle M. Monahan [Tufts]</person>
+                </persons>
+                <language>en</language>
+                <description>This session introduces our standardized AI toolkit that makes advanced capabilities accessible to researchers without deep technical expertise, using Open OnDemand (OOD) on the Tufts HPC Cluster.
+
+We&#8217;ll showcase three core OOD applications: Research Chatbot (OpenWebUI + Ollama) for private local language models and cloud APIs; LLM Notebooks (Jupyter + Ollama) for building agentic workflows in familiar notebook environments; and Image Generation (Stable Diffusion, ComfyUI) for creative and research image tasks. We also deployed code-free apps for speech recognition, OCR, and semantic text search. Key lessons include setting sensible GPU defaults, tailoring user interfaces, and extensive user testing. A live demo will highlight how the platforms work, and the focus on ease of access to local and cloud models for research use. 
+
+Participants will gain strategies for enabling broad LLM adoption and implementation resources (code, templates), alongside supporting documentation about model selection for research use cases. We will also provide a roadmap of future development directions based on our research community needs.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/H83SAP/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='36967611-5ad8-596a-a5c3-29b8a756a259' id='85947' code='YP3DSW'>
+                <room>Breakout Room</room>
+                <title>Designing Custom Dashboard and Job Monitoring Tools in OOD</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-10T11:30:00-06:00</date>
+                <start>11:30</start>
+                <duration>00:25</duration>
+                <abstract>During a two-semester internship with Tufts Technology Services, interns Javier Laveaga and William Goldman developed new Open OnDemand applications for displaying cluster statistics and user job data, and improved both the functionality and appearance of the Tufts High-Performance Cluster dashboard. In this talk, we share our experiences building custom apps and dashboard components, the final results, and the programming languages and structure used. We explain how to create fully customizable user-facing applications in Open OnDemand.</abstract>
+                <slug>good-2026-85947-designing-custom-dashboard-and-job-monitoring-tools-in-ood</slug>
+                <track></track>
+                <logo>/media/good-2026/submissions/YP3DSW/Screenshot_2025-12-05_at__2NkhBGr.webp</logo>
+                <persons>
+                    <person id='87035'>William Goldman [Tufts]</person>
+                </persons>
+                <language>en</language>
+                <description>The default Open OnDemand dashboard has limitations in its customizability, and existing documentation focuses primarily on changes that can be made to the default OOD infrastructure. However, achieving true interface customization requires the use of HTML, Bootstrap JS, and CSS to enable complete control over design and functionality. Integrating these technologies with custom Slurm commands allows detailed statistics and other information about your HPC system to be displayed. This talk will cover the design, structure, and implementation details behind several custom pages: Dashboard: Custom pinned apps, an email-style Message of the Day system, and a system status widget. Jobs Monitor Page: Resources used by user jobs, total jobs queued/running/cancelled, and a searchable, sortable job list. System Status Page: Partition details and usage, available vs. used resources, and more.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/YP3DSW/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='442b4094-2aa9-533b-b792-94179147b593' id='90285' code='EGSGQK'>
+                <room>Breakout Room</room>
+                <title>Idea Marketplace [in the Granite Ballroom]</title>
+                <subtitle></subtitle>
+                <type>Idea Marketplace</type>
+                <date>2026-03-10T15:30:00-06:00</date>
+                <start>15:30</start>
+                <duration>03:00</duration>
+                <abstract>Grab a snack, meet the community, and connect with Governance Committee members, the Appverse team, Affinity Groups, and GOODLUCK leadership to learn how to get involved with Open OnDemand project!</abstract>
+                <slug>good-2026-90285-idea-marketplace-in-the-granite-ballroom</slug>
+                <track></track>
+                
+                <persons>
+                    
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/EGSGQK/</url>
+                <feedback_url></feedback_url>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='3' date='2026-03-11' start='2026-03-11T04:00:00-06:00' end='2026-03-12T03:59:00-06:00'>
+        <room name='Main Hall' guid='1f3ac6d4-442e-525d-8c07-1776a3ed8691'>
+            <event guid='562b9e2b-f1be-5bcd-ac9e-7d86c8b193cb' id='90282' code='PAHRWR'>
+                <room>Main Hall</room>
+                <title>Open OnDemand Project Update</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T09:00:00-06:00</date>
+                <start>09:00</start>
+                <duration>00:25</duration>
+                <abstract>A core leadership update on recent Open OnDemand updates, new cross-cutting solutions, update on teh OOD affinity Groups, and more.</abstract>
+                <slug>good-2026-90282-open-ondemand-project-update</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='90639'>Julie Ma [Massachusetts Green High Performance Computing Center]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/PAHRWR/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='2cee7700-b7ec-5fe8-b794-289e6f3b79ab' id='86660' code='ZEZHQX'>
+                <room>Main Hall</room>
+                <title>Workflow Management in Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T09:30:00-06:00</date>
+                <start>09:30</start>
+                <duration>00:25</duration>
+                <abstract>Executing multi-task computational research workflows on HPC systems often requires manual scripting, resource manager and scheduler expertise. It creates barriers for researchers and educators, especially at smaller institutions or in multidisciplinary collaborations. Although OOD provides an accessible web-based interface for launching standalone applications as jobs, it has lacked an integrated mechanism to easily compose, manage, and execute multiple tasks with dependencies among them as Workflows. Workflows enabled researchers to visually construct, execute, and monitor simple composition of multiple &#8220;launchers&#8221; (i.e. independent tasks/jobs) that can perform data pre- or post-processing, simulation, and other computational tasks connected via output to input dependencies.</abstract>
+                <slug>good-2026-86660-workflow-management-in-open-ondemand</slug>
+                <track></track>
+                <logo>/media/good-2026/submissions/ZEZHQX/New-UI_bSCihvi_R9F9PjU_xl_LQ69N3O.webp</logo>
+                <persons>
+                    <person id='87636'>Harshit Soora [University of Maryland]</person>
+                </persons>
+                <language>en</language>
+                <description>One of the recent developments in OOD is the Project Manager(PM) to replace the legacy Job composer. The PM introduced a new idea of having a shared or private project abstracting the jobs that categorizes and manages jobs at the project level. Tasks (Launchers) in PM allows users to create jobs with single scripts, but real-world scientific research rarely consists of a single, isolated task. Instead, it involves pipelines, data pre-processing, simulation, post- processing, and visualization, where the output of one task serves as the input for the next. While PM has simplified the launch of standalone interactive applications, it has historically lacked a native, user-friendly mechanism for orchestrating complex, multi-step workflows. Users are forced to exit the web UI and return to manual CLI scripting to manage these dependencies.
+The Workflow Manager, integrated into PM, extends standalone Launchers to support multi-step research pipelines. It provides a web-based visual editor where users can construct Directed Acyclic Graphs (DAGs) to define task dependencies and conditional branching without writing complex manual scripts. By converting these DAGs into topological orderings, the system automates job scheduling across various resource managers like SLURM or PBS. Workflows utilizes YAML-based metadata and a real-time pooling mechanism. This allows the interface to track job IDs and provide human-readable diagnostic messages regarding job states and dependencies directly in the browser. This approach simplifies error management by explaining why jobs may be pending or failed, while remaining agnostic to underlying scheduler.
+Workflow Manager successfully handles task dependencies based on execution order, but lacks a mechanism for explicit data flow between tasks. Future development will introduce a workflow-scoped temporary directory to serve as a shared execution context for all tasks, enabling users to inspect outputs and browse prior runs through the GUI.  Launchers will be updated to support both input and output directory specifications. By default, these directories will resolve to the workflow&apos;s shared temporary space, automatically binding the output of one launcher to the input of the next. While scaling this to multiple outputs remains a design challenge, the community is exploring solutions like named outputs and artifact descriptors to evolve the tool into a fully data-aware system without sacrificing its accessibility for novice users.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments>
+                    <attachment href="https://pretalx.com/media/good-2026/submissions/ZEZHQX/resources/Poster-36x48_ONyuhKD.pdf">A recent poster we showcased in SC25 Exhibit</attachment>
+                </attachments>
+
+                <url>https://pretalx.com/good-2026/talk/ZEZHQX/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='80c3f4df-723a-50cd-8a1e-c440424d7752' id='85936' code='FDKCP9'>
+                <room>Main Hall</room>
+                <title>MATLAB + OOD: Parallel Computing and GenAI with MATLAB Copilot</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T10:00:00-06:00</date>
+                <start>10:00</start>
+                <duration>00:25</duration>
+                <abstract>Since GOOD 2025, more HPC Centers have been adopting Open OnDemand. Many sites have integrated MATLAB. Learn what&#8217;s new and which tools sites are offering, including:
+-	Browser-based access to full MATLAB, including GPU and parallel computing tools 
+-	MATLAB Copilot for GenAI-assisted coding and simulation in cloud and desktop  
+-	MATLAB MCP Core Server for integrating MATLAB with agentic AIs</abstract>
+                <slug>good-2026-85936-matlab-ood-parallel-computing-and-genai-with-matlab-copilot</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87030'>Nick Choi [MathWorks]</person><person id='87026'>Lisa Kempler [MathWorks]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/FDKCP9/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='13f44dd4-7571-5506-93fe-c4a72f511e28' id='85872' code='ATV33X'>
+                <room>Main Hall</room>
+                <title>Simplifying Cloud Computing: Integration of Open&#8239;OnDemand with OpenStack</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T11:00:00-06:00</date>
+                <start>11:00</start>
+                <duration>00:25</duration>
+                <abstract>At CESNET we have integrated OpenStack with Open&#8239;OnDemand, enabling users to create and deploy virtual machines, Kubernetes clusters and applications with minimal effort. In this presentation we will demonstrate the full potential of this integration through two concrete use&#8209;cases: (1) provisioning a simple OpenStack virtual machine and (2) launching an on&#8209;premises Kubernetes deployment. The talk will highlight the underlying adapter architecture, share technical insights from the implementation, and discuss current limitations and challenges. The goal is to provide an overview for any organization that provides OpenStack to its users and wishes to support this functionality.</abstract>
+                <slug>good-2026-85872-simplifying-cloud-computing-integration-of-open-ondemand-with-openstack</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87176'>Andrej &#268;erm&#225;k [CESNET]</person>
+                </persons>
+                <language>en</language>
+                <description>CESNET &#8211; the Czech national academic backbone that delivers advanced ICT services for science, research, and education &#8211; also operates an OpenStack cloud for its member universities and the Academy of Sciences. We developed an adapter that connects this OpenStack environment to Open&#8239;OnDemand and deployed the Coder service with custom Terraform templates to streamline provisioning. The resulting integration lets users launch virtual machines through interactive Open&#8239;OnDemand applications, dramatically simplifying cloud&#8209;resource deployment. We also explored a deployment of interactive applications such as RStudio to the on-premise Kubernetes instance by reusing the existing Kubernetes adapter. This presentation will outline the architecture, discuss the challenges we encountered, and share the solutions we implemented.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/ATV33X/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='91fc7453-33f3-5072-b631-8288cf7d3362' id='86282' code='CCJPZN'>
+                <room>Main Hall</room>
+                <title>Implementing and Configuring User Impersonation</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T11:30:00-06:00</date>
+                <start>11:30</start>
+                <duration>00:25</duration>
+                <abstract>User impersonation is a powerful capability within Open OnDemand that enables designated users&#8212;such as administrators, support staff, or service accounts&#8212;to act on behalf of other users to troubleshoot issues, validate configurations, and streamline workflows. As HPC centers grow more complex and support demands increase, a flexible and secure impersonation model becomes essential.</abstract>
+                <slug>good-2026-86282-implementing-and-configuring-user-impersonation</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87326'>Brandon Biggs [Idaho National Lab]</person>
+                </persons>
+                <language>en</language>
+                <description>This talk presents the design, implementation, and configuration of enhanced user impersonation features in Open OnDemand. We will explore both frontend and backend changes that allow multiple classes of users to impersonate others while maintaining strict security and auditability requirements. Topics include updates to authentication and mapping layers, interface and workflow adjustments in the OnDemand dashboard, and best practices for safely exposing impersonation capabilities in multi-user environments. Attendees will gain a clear understanding of how to enable, manage, and customize impersonation to suit their site&#8217;s policies and operational needs.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/CCJPZN/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='503dfbd7-355b-5be6-b45a-60d7adb7b371' id='86671' code='CH7TWT'>
+                <room>Main Hall</room>
+                <title>Repurposed Hardware to Modern Research: Deploying projectEUREKA! Open OnDemand and Kubernetes</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T13:00:00-06:00</date>
+                <start>13:00</start>
+                <duration>00:25</duration>
+                <abstract>As AI, HPC, and data-intensive research workloads continue to grow, many institutions face a common challenge: how to modernize research computing environments without replacing existing infrastructure, expanding staff, or locking into proprietary platforms. This talk presents a real-world case study of deploying projectEUREKA! with integrated Open OnDemand, an AI and HPC orchestration platform on Kubernetes, using a repurposed on-premises HPC cluster at Texas A&amp;M University&#8211;San Antonio (TAMUSA).
+We describe how Kubernetes was used as a local orchestration layer, enabling flexible, project-centric workflows across resources, while providing a browser-based experience. Demonstrates how institutions can extend the life of existing hardware, simplify user access, and support modern workflows.</abstract>
+                <slug>good-2026-86671-repurposed-hardware-to-modern-research-deploying-projecteureka-open-ondemand-and-kubernetes</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87647'>Boyd Wilson [Omnibond]</person>
+                </persons>
+                <language>en</language>
+                <description>Many campus HPC environments struggle with rising costs and licensing complexity of traditional cluster management tools, increasing demand for GPUs and AI software stacks, steep learning curves for users unfamiliar with command-line HPC, and limited operational bandwidth to support rapidly evolving toolchains. Open OnDemand has proven effective in lowering barriers to access for HPC users, but backend architectures often remain rigid and difficult to adapt. This talk explores how pairing Open OnDemand with a Kubernetes-based local platform can address both user experience and operational flexibility.
+The TAMUSA deployment leverages projectEUREKA! to integrate Kubernetes (K3s) as a lightweight, on-prem orchestration layer; KubeVirt for GPU-enabled virtual desktops and interactive workloads; projectEUREKA!&apos;s integration of Open OnDemand for secure, browser-based access; and project-scoped automation for storage, users, and permissions. All components were deployed on repurposed TAMUSA cluster nodes, avoiding new hardware purchases and preserving institutional control over data and identity. This open-source foundation ensured scalability without vendor lock-in.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/CH7TWT/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='7d0a4021-7672-55f5-a3ae-b68396fb90a8' id='86586' code='CZBTDH'>
+                <room>Main Hall</room>
+                <title>Open OnDemand in the EuroHPC Federation Platform</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T13:30:00-06:00</date>
+                <start>13:30</start>
+                <duration>00:25</duration>
+                <abstract>The EuroHPC Federation Platform is a project to federate access to EuroHPC systems, to make it
+easier for researchers and industry users across Europe to access computing resources. Within
+the project, a federated instance of Open OnDemand has been developed and deployed. It has many
+unique features and integrations, such as remote cluster file system access, Kubernetes-native
+deployment, and integration of the EESSI software stack.
+This talk targets system administrators, service owners, and others interested in federation of HPC
+resources or responsible for maintaining and developing Open OnDemand instances. It discusses
+technical details and challenges of providing a single instance of Open OnDemand which is
+connected to multiple supercomputers at external organizations.</abstract>
+                <slug>good-2026-86586-open-ondemand-in-the-eurohpc-federation-platform</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87573'>Robin Karlsson [CSC - IT Center for Science]</person>
+                </persons>
+                <language>en</language>
+                <description>Open OnDemand (OOD) is used in the EuroHPC Federation Platform (EFP) to provide interactive
+web-based access to EuroHPC computing resources. Although OOD is normally deployed for use with a
+single supercomputer, the OOD instance in EFP has been developed to be a central instance of OOD
+that connects to externally managed EuroHPC systems purely over SSH. As a result, the users can
+access any of the available EuroHPC systems from the same instance. The OOD instance in EFP
+depends on many other components in the platform, including the federated user authorization and
+authentication infrastructure, resource allocation, SSH CA, and the European Environment for
+Scientific Software Installations (EESSI) software stack.
+Two major features for OOD have been developed to make the federated instance possible, both of
+which will be contributed upstream. The first is a remote cluster file system feature, which enables
+OOD to access the file system of the cluster over SSH rather than local mounts. It also enables the
+possibility of implementing other methods of file system access, such as FirecREST, in the future.
+The other feature, Kubernetes-native deployment, allows configuring OOD to schedule each per-
+user nginx instance in its own Kubernetes pod. As a result, OOD is more suited for being deployed
+in a Kubernetes cluster, with increased user isolation, better horizontal scalability, and with less
+privileges needed.
+As the federated instance of OOD connects to many different systems with different software stacks,
+EESSI is used to provide a common software stack. The EESSI integration includes module selection
+as well as interactive apps with zero dependencies on the local supercomputer software stack.
+Several commonly used software applications used in interactive apps were added to the EESSI
+repository within the project, which are now available for anyone to use.
+This talks builds on the &#8220;Federated Open OnDemand&#8221; talk from GOOD25, by discussing how the
+previously presented prototypes and ideas became reality, with the EuroHPC Federation Platform
+going into production in March 2026. The talk will provide a foundation of ideas, challenges, and
+other insight for anyone interested in connecting multiple supercomputers to OOD, deploying OOD
+outside of the cluster itself, deploying in Kubernetes, or using EESSI to provide the software for
+OOD interactive apps.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/CZBTDH/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='a7063ef0-5966-5ab7-914b-cd5ee6021d8c' id='86670' code='SSXDD9'>
+                <room>Main Hall</room>
+                <title>A Simplified Approach to Managing Your Data with Globus</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T14:00:00-06:00</date>
+                <start>14:00</start>
+                <duration>00:25</duration>
+                <abstract>Open OnDemand and Globus are natural partners: Open OnDemand lowers the barrier to using advanced computing resources while Globus adds managed services to simplify data transfer, distributed computation and workflow automation. Using Globus to move and share data, provide high performance remote function execution and at-scale automation, makes your Open OnDemand system even more valuable to researchers. In this talk we will demonstrate how the two systems integrate to help researchers curate data from inception to publication.</abstract>
+                <slug>good-2026-86670-a-simplified-approach-to-managing-your-data-with-globus</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87645'>Greg Nawrocki [Globus]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/SSXDD9/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='c2898e36-c7d3-516d-b47b-78f48a1e94c7' id='89975' code='BLMTQM'>
+                <room>Main Hall</room>
+                <title>Open OnDemand Developer Team Open Mic</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T15:00:00-06:00</date>
+                <start>15:00</start>
+                <duration>00:25</duration>
+                <abstract>Meet with Open OnDemand Dev team members to ask questions about the platform and the docs that don&#8217;t easily lend themselves to discourse or email. Community members are welcome to chime in on topics outside the scope of what is deployed at Ohio Supercomputer Center.</abstract>
+                <slug>good-2026-89975-open-ondemand-developer-team-open-mic</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87206'>Emily Moffat Sadeghi [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>Last year at GOOD 25, the development team led essentially open mic sessions with the attendees on whatever questions or concerns they had in mind.  This led to incredible discussion and insight from things that ranged from applications to intricate security questions to requested features and to questions about how OOD is developed or designed.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/BLMTQM/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='7ddcae50-cb05-5ffe-a9ba-e7b9961d5d1f' id='85752' code='TDP7YW'>
+                <room>Main Hall</room>
+                <title>Supporting Interactive Graphical Applications with ThinLinc in Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T15:30:00-06:00</date>
+                <start>15:30</start>
+                <duration>00:25</duration>
+                <abstract>This session will introduce ThinLinc and how to use it together with Open OnDemand. ThinLinc is a Linux terminal server solution that is used at HPC centers around the world to support access to interactive graphical Linux applications. The ThinLinc team is working with the OOD team to integrate ThinLinc into OOD and this session will go over the technical work as well as the features of the integration. This session will also include a demo of the current beta release.</abstract>
+                <slug>good-2026-85752-supporting-interactive-graphical-applications-with-thinlinc-in-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='86831'>Robert Henschel [Cendio]</person><person id='91091'>Mattias Reuterski&#246;ld [Cendio]</person>
+                </persons>
+                <language>en</language>
+                <description>Traditionally, ThinLinc has been used to create an HPC Desktop running in front of an HPC system, complementing an Open OnDemand installation. In an ongoing project, the ThinLinc team is collaborating with the Open OnDemand developers to also integrate ThinLinc into Open OnDemand so that it can be used within Slurm jobs. A beta version of this integration is available and will be demoed in this session.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/TDP7YW/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='7fd4f0d4-fc3c-5c26-b8f4-73e56f9e4856' id='86694' code='DEVBWX'>
+                <room>Main Hall</room>
+                <title>A Wizard for Complexity: Inspiring New UI/UX for HPC Applications</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-11T16:30:00-06:00</date>
+                <start>16:30</start>
+                <duration>00:10</duration>
+                <abstract>LAMMPS&apos;s complex, non-uniform GPU feature support creates a dilemma: users struggle to find a compatible build, leading to wasted time, admin overload, and underutilized GPUs (e.g., Intel Max). We present an intelligent, wizard-style utility that performs **automatic three-way matchmaking** between available LAMMPS software builds, GPU accelerators, and user input requirements. The utility suggests optimal, GPU-accelerated builds and clearly explains why others are incompatible. Built atop the Drona job launcher, the wizard uses dynamically repopulating menus to guide users through the selection process, and finally injects the full configuration directly into a ready-to-run Slurm job script.</abstract>
+                <slug>good-2026-86694-a-wizard-for-complexity-inspiring-new-ui-ux-for-hpc-applications</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87405'>Sahil Vartak [Texas A&amp;M University]</person><person id='89275'>Owen Schillaci [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                <description>The challenge of accelerating LAMMPS is defined by technical debt: a patchwork of one-off GPU backend implementations (CUDA, Intel, etc.) support a zoo of force calculations. For users, this &quot;impossible to document&quot; compatibility matrix means every execution is a gamble, and for administrators, it means constant, often unnecessary, requests for new software builds.
+
+Our solution is an intelligent, rule-based matching engine designed for HPC application specialists and systems administrators.
+
+The Talk will cover:
+
+The Compatibility Logic: A deep dive into the rule-based logic used to match a user&apos;s LAMMPS input requirements (force styles, packages) against the capabilities discovered by inspecting the cluster&apos;s available LAMMPS executables.
+
+The Discovery Process: How the utility identifies GPU devices (including underutilized ones like Intel Max 1100) and correlates them with the accelerated packages present in each LAMMPS build.
+
+UI/UX for Complex Systems: The use of the Drona job-launcher framework for building the wizard. Drona enhances the traditional form interface with dynamically repopulating dropdown menus, allowing users to filter the solution space interactively. This avoids upfront cognitive overload and ensures only valid choices are ever presented.
+
+The End Product: The utility generates a complete, human-readable, and immediately runnable job script (e.g., Slurm/PBS) with the correct configuration parameters automatically injected, transitioning the user seamlessly from configuration analysis to job submission. This saves admin time by reducing software requests and empowers users with full transparency on compatibility.
+
+Target Audience: HPC System Administrators, Application Support Specialists, and Research IT staff.
+
+Takeaway: A practical, open-source methodology for creating guided, compatibility-aware user interfaces for complex command-line scientific applications.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/DEVBWX/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='bf7bd45e-c385-57dd-92a6-2b7d2d58e861' id='86193' code='DDCDPV'>
+                <room>Main Hall</room>
+                <title>Accessible LLM Inference via Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-11T16:40:00-06:00</date>
+                <start>16:40</start>
+                <duration>00:10</duration>
+                <abstract>Large language models are now a common tool for writing code and exploring ideas, but using them on HPC systems can still be a challenge. To make this simpler, I built an interactive Open OnDemand application that lets users access a local LLM directly inside Jupyter Notebook using the Jupyter AI extension. Behind the scenes, user requests are routed through a load balancer to a pool of vLLM inference servers running on Intel GPUs, which serve open-source models up to 70B parameters.
+
+In this talk, I&#8217;ll walk through how the system works, why we built it, and how it gives researchers easy, reliable access to LLM assistance without relying on external cloud services.</abstract>
+                <slug>good-2026-86193-accessible-llm-inference-via-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87202'>Keegan [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                <description>The talk will demonstrate the capabilities of the application: debugging programs, and assisting with writing code for simple tasks. I will then walk through the system design and the challenges of creating an application like this.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/DDCDPV/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='7e230d39-8cbf-504a-95dd-1b60c75f191a' id='86192' code='XNUVDC'>
+                <room>Main Hall</room>
+                <title>Auto Machine Learning on Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-11T16:50:00-06:00</date>
+                <start>16:50</start>
+                <duration>00:10</duration>
+                <abstract>Machine learning now plays a very important role in a wide range of scientific fields. However many researchers in these scientific fields don&apos;t have machine learning expertise and may find it difficult to train a machine learning model themselves. 
+Auto machine learning bridges this gap by making it very simple to train a state of the art model. Auto machine learning frameworks like AutoGluon make it such that all you need is a dataset and a few lines of code.  
+The interactive application that I have developed for Open OnDemand closes the gap further by not requiring the user to write any code at all. Through our application, users can simply choose a dataset and their configuration, and train the model.</abstract>
+                <slug>good-2026-86192-auto-machine-learning-on-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87202'>Keegan [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                <description>The talk will start with a short introduction to Auto Machine Learning and its use cases. I will then provide a short demonstration of the application on the HPRC Launch cluster. Finally I will walk through the challenges of creating an interactive application like this.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/XNUVDC/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='d653ca1b-66f9-54c4-8635-90f6fee42544' id='86297' code='87KRTL'>
+                <room>Main Hall</room>
+                <title>OnDemand Application Development Internship at Tufts</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-11T17:00:00-06:00</date>
+                <start>17:00</start>
+                <duration>00:10</duration>
+                <abstract>We are excited to share insights from the inaugural OnDemand internship hosted by Research Technology at Tufts Technology Services. This presentation highlights the interns&#8217; accomplishments, explores challenges encountered, and identifies opportunities uncovered. We look forward to sharing our journey and lessons learned with fellow HPC centers.</abstract>
+                <slug>good-2026-86297-ondemand-application-development-internship-at-tufts</slug>
+                <track></track>
+                <logo>/media/good-2026/submissions/87KRTL/Technology_Services_TTS___9wdQM1S.webp</logo>
+                <persons>
+                    <person id='87337'>Delilah Maloney [Tufts]</person><person id='87339'>Yucheng Zhang [Tufts]</person>
+                </persons>
+                <language>en</language>
+                <description>This presentation details the inaugural OnDemand internship hosted by Research Technology in Tufts Technology Services under the  TTS Internship Program, designed to bridge academic learning with real-world HPC application and gateway development. Over the course of the program, interns engaged in enhancing the Open OnDemand interface, addressing usability challenges, and implementing design improvements. We will showcase achievements, including new interface features that streamline resource selection and improve the user experience for the Tufts HPC community.
+
+Beyond technical outcomes, this session explores the unique challenges of launching an HPC-focused internship - such as recruiting intern candidates, onboarding students with varying levels of HPC literacy, balancing project scope with academic schedules, and fostering collaboration in a hybrid environment. We will also highlight opportunities uncovered through this initiative, such as enabling students to contribute to real-world software development and maintenance while gaining practical skills. Our goal is to share lessons learned and practical recommendations with fellow HPC centers seeking to develop similar programs, demonstrating how internships can serve as a catalyst for innovation, workforce development, and community building in research computing.
+
+Intro (1min), Internship program overview (2mins), Showcase intern projects(3mins), Our experience and lessons learned (3mins), Roadmap (1mins)</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/87KRTL/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='04f4c509-0bdd-5d9a-afff-fa37f172cabf' id='86307' code='KYBWAV'>
+                <room>Main Hall</room>
+                <title>CryoSPARC Interactive App Deployment</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-11T17:10:00-06:00</date>
+                <start>17:10</start>
+                <duration>00:10</duration>
+                <abstract>CryoSPARC is a leading cryo&#8209;EM data&#8209;processing platform. While CryoSPARC offers various installation methods, each can pose significant challenges for HPC users and system administrators ranging from version updates to port management.
+
+To streamline deployment, we have created a CryoSPARC interactive app and a script for generating a Singularity image that eliminates the need for end&#8209;users to perform any manual installation. This OOD app utilizes a CryoSPARC Singularity image that is shared among all users while providing each user with their own individual database and log files. This dramatically reduces storage overhead and simplifies version control, while providing each researcher with a fully functional CryoSPARC environment.</abstract>
+                <slug>good-2026-86307-cryosparc-interactive-app-deployment</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87406'>Michael Dickens [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/KYBWAV/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='890fec4f-9d17-5cb8-97a2-a63b7401a0cf' id='86691' code='PKB37G'>
+                <room>Main Hall</room>
+                <title>An Intuitive, Extensible Open OnDemand Dashboard for Job Accounting and Performance Metrics</title>
+                <subtitle></subtitle>
+                <type>Short Talk</type>
+                <date>2026-03-11T17:20:00-06:00</date>
+                <start>17:20</start>
+                <duration>00:10</duration>
+                <abstract>High-performance computing allows researchers across the globe to conduct research at scale. At Purdue University, Open OnDemand provides an easy way for users to access cluster resources and launch popular applications with minimal barriers. In order to improve how users interact with clusters, we are building a user-friendly, modular web dashboard on Open OnDemand with detailed, organized cluster information and color-coded visualizations. By combining Slurm-based data sources and modular widgets and components, this dashboard allows researchers to access cluster information about their jobs and allocations easily and provides a modular, extensible framework to install on any Slurm-based cluster.</abstract>
+                <slug>good-2026-86691-an-intuitive-extensible-open-ondemand-dashboard-for-job-accounting-and-performance-metrics</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87663'>Richie Tan [Purdue]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/PKB37G/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='ad2a984d-60b2-5d14-9798-4756d221f88b' id='93143' code='VJMGAY'>
+                <room>Main Hall</room>
+                <title>Evening Attendee Social at Red Butte Garden</title>
+                <subtitle></subtitle>
+                <type>Social Event</type>
+                <date>2026-03-11T18:00:00-06:00</date>
+                <start>18:00</start>
+                <duration>02:00</duration>
+                <abstract>Join us at Red Butte Garden, just a mile from the conference center, for an evening of networking and relaxation. Shuttles will be running between the conference/hotel and the Red Butte from 5:30 to 9:30. Shuttle pick up will be right in front of the conference center and hotel.</abstract>
+                <slug>good-2026-93143-evening-attendee-social-at-red-butte-garden</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='93224'>Red Butte Garden [300 Wakara Way, Salt Lake City]</person>
+                </persons>
+                <language>en</language>
+                <description>Address: 300 Wakara Way, Salt Lake City, UT 84108
+
+A shuttle will run a continuous loop between the conference center and the garden. Enjoy hors d&#8217;oeuvres, a hosted bar, and great conversation with fellow attendees. All conference participants are welcome!</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/VJMGAY/</url>
+                <feedback_url></feedback_url>
+            </event>
+            
+        </room>
+        <room name='Breakout Room' guid='06b46176-719c-5589-985a-413f918d7cc0'>
+            <event guid='ce784740-9ee3-541b-ac60-7910531057cd' id='86376' code='A3FWHS'>
+                <room>Breakout Room</room>
+                <title>A Modular Dashboard Framework for Customizable &amp; Accessible High Performance Computing</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T10:00:00-06:00</date>
+                <start>10:00</start>
+                <duration>00:25</duration>
+                <abstract>As HPC expands beyond computer science, many users encounter command-line interfaces for the first time. HPCMosaic addresses this gap with a modular OOD dashboard that simplifies cluster management for non-technical researchers while staying customizable for experienced users. This talk presents a framework that reduces support burden by enabling self-service for common tasks (file quotas, account management, and job control) decreasing repetitive tickets. Targeted at HPC developers and cluster admins, this session covers modern dashboard development focused on customizability and user experience. Attendees will learn how to build accessible HPC interfaces that let researchers focus on their work instead of troubleshooting, reducing user frustration and support workload.</abstract>
+                <slug>good-2026-86376-a-modular-dashboard-framework-for-customizable-accessible-high-performance-computing</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87405'>Sahil Vartak [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                <description>The democratization of high-performance computing has created a paradox, as clusters become more powerful and essential for research across disciplines, the gap between computational capability and user technical proficiency also widens. Biologists, social scientists, and domain experts increasingly need HPC resources but often lack the specialized computer skills traditionally required to interact with these systems effectively.
+
+HPCMosaic emerged from observing this friction point at A&amp;M&apos;s HPRC group, where support teams handle numerous daily tickets for simple, repetitive tasks (quota checks, account status inquiries, job status monitoring) that often require multiple follow-ups due to incomplete information. Each ticket represents time lost for both researchers and support staff, time that could be better spent on actual research or complex technical challenges.
+This talk introduces HPCMosaic, a modular and replicable Open OnDemand dashboard framework designed with two core principles: accessibility for non-technical users and customizability for diverse institutional needs. Rather than forcing users to navigate command-line interfaces for routine tasks, HPCMosaic provides an intuitive web interface that proactively surfaces relevant information and enables self-service resource management.
+
+Talk Outline:
+Problem context (5 min): The evolving HPC user landscape and support burden
+HPCMosaic architecture (8 min): Modular design philosophy, customization points, and replicability considerations
+Key features (7 min): Self-service tools, proactive information display, and support ticket reduction strategies
+Implementation considerations (3 min): Deployment approaches for different institutional contexts
+Q&amp;A (2 min)
+
+Target Audience:
+HPC system administrators, research computing support staff, and developers at universities or research institutions managing computing clusters. No advanced web development experience required, though familiarity with HPC environments and Open OnDemand is helpful.
+
+Key Takeaways:
+Attendees will understand architectural patterns for building accessible HPC dashboards, learn strategies for reducing support burden through better UX design, and gain practical insights into deploying customizable interfaces that scale across different institutional needs. The modular approach enables institutions to adapt HPCMosaic to their specific requirements while maintaining core accessibility benefits.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/A3FWHS/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='b1497a2d-1715-5dbe-9151-63adf4e655df' id='86643' code='DSFY7V'>
+                <room>Breakout Room</room>
+                <title>Domain-Aware Workflow Monitoring in Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T11:00:00-06:00</date>
+                <start>11:00</start>
+                <duration>00:25</duration>
+                <abstract>Researchers rely on Open OnDemand (OOD) to design, launch, and manage scientific workflows on high performance computing (HPC) systems. In addition to job creation and submission, this process also includes monitoring job progress. OOD provides the job-listing app and session cards for monitoring running jobs. However, these tools primarily provide scheduler-level information, forcing researchers to manually retrieve workflow and domain-specific information. Drona Workflow Engine bridges this gap by providing integrated, domain-specific monitoring throughout the workflow lifecycle. In this presentation, we will focus on job-monitoring capabilities and explore various types of job monitoring integrated into the representative, commonly used scientific workflows.</abstract>
+                <slug>good-2026-86643-domain-aware-workflow-monitoring-in-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='89275'>Owen Schillaci [Texas A&amp;M University]</person>
+                </persons>
+                <language>en</language>
+                <description>Open OnDemand is the go-to platform for researchers running scientific workflows (structured collections of interdependent computational steps used to carry out a scientific experiment or analysis) on HPC systems. Running scientific workflows typically involves two primary steps: batch job creation and submission, followed by job monitoring. Open OnDemand supports these activities through the job composer and project manager applications for job submission, as well as the job-listing app for monitoring job progress. Although useful, the information provided by the job-listing app is largely limited to batch-scheduler metadata, and session cards offer only minimal additional context, often forcing researchers to rely on command-line tools to understand workflow progress, performance, and domain-specific behavior. Effective job monitoring requires visibility into both system-level metrics, such as CPU and GPU utilization, and domain-specific progress indicators, including epochs completed in AI workflows, convergence metrics for numerical solvers, and workflow-specific output patterns. For machine-learning workflows built with PyTorch or TensorFlow, seamless integration with tools such as TensorBoard is a key requirement. Similarly, for AlphaFold workflows, exposing domain specific pipeline stages like MSA generation, model inference, and structure relaxation provides meaningful insights. Currently, it is up to the researcher to retrieve the relevant information, often using command-line tools. Addressing this inconvenience, Drona Workflow Engine is a framework that provides detailed, domain-specific batch script creation, submission, and job monitoring that allows researchers to focus on scientific insight rather than manual tracking. In this presentation, we demonstrate these capabilities using a representative scientific workflow fully integrated with Drona. The demonstration presents rich observational views, including CPU and GPU utilization and standard Slurm job information. It also supports interactive control actions, such as canceling portions of a workflow or requesting additional walltime. Finally, it exposes domain-specific workflow signals, including completed steps and runtime warnings.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/DSFY7V/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='bfba60b7-4f42-51c3-bc6c-b10b7a8f8347' id='85923' code='QXWWZH'>
+                <room>Breakout Room</room>
+                <title>From Zero to Productive: Open OnDemand on Azure CycleCloud for Slurm-with Entra ID,VS Code,AI Agents</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T11:30:00-06:00</date>
+                <start>11:30</start>
+                <duration>00:25</duration>
+                <abstract>Open OnDemand (OOD) provides researchers with a streamlined, browser-based HPC experience. This session covers deploying and operating OOD on Azure CycleCloud Workspace for Slurm, including provisioning the OOD VM, integrating Microsoft Entra ID with OpenID Connect and federated credentials, and auto-registering Slurm clusters for dynamic partition discovery. We&apos;ll demo browser-based VS Code for interactive development, explore when to use Cendio ThinLinc for enhanced visualization, and show how AI Agents like GitHub Copilot inside VS Code can rapidly build new OOD apps and templates.</abstract>
+                <slug>good-2026-85923-from-zero-to-productive-open-ondemand-on-azure-cyclecloud-for-slurm-with-entra-id-vs-code-ai-agents</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87010'>Xavier Pillons [Microsoft]</person>
+                </persons>
+                <language>en</language>
+                <description>Open OnDemand (OOD) gives researchers a clean, browser-based path to HPC. In this talk I&#8217;ll show how to deploy and operate OOD on Azure CycleCloud Workspace for Slurm end-to-end: provisioning the OOD VM, wiring Microsoft Entra ID via OpenID Connect (using federated credentials&#8212;no client secrets), and auto-registering Slurm clusters so OOD &#8220;discovers&#8221; partitions dynamically by querying CycleCloud. We&#8217;ll demo VS Code in the browser for interactive development on login/compute nodes, and discuss when a Cendio ThinLinc desktop is the right complement to noVNC for visualization. Finally, I&#8217;ll demonstrate how to accelerate building new OOD apps using AI Agents like GitHub Copilot Agent inside VS Code, turning complex Slurm job forms into ready-to-use templates in minutes. You&#8217;ll leave with practical checklists, GitHub repos, and an AI-powered workflow to simplify HPC portal customization.
+
+By the end of the session, attendees will be able to:
+1.	Deploy Open OnDemand alongside CycleCloud Workspace for Slurm, including network and shared-home choices (ANF, built-in NFS).
+2.	Configure Microsoft Entra ID + OpenID Connect for OOD with federated credentials (no client secrets) and a user-assigned managed identity.
+3.	Register Slurm clusters automatically with OOD and render a dynamic partition list by querying CycleCloud metadata.
+4.	Launch and use VS Code in OOD (official web server or code-server), including tips for extensions and remote compute flows.
+5.	Evaluate when to add ThinLinc desktops to complement OOD&#8217;s noVNC sessions for visualization-heavy workloads.
+6.	Accelerate OOD app development using AI Agents like GitHub Copilot Agent in VS Code, generating Slurm job templates and forms in minutes to streamline HPC portal customization.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/QXWWZH/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='f26ee8f9-5b25-51b5-8747-1131260cec91' id='84054' code='YJEYT9'>
+                <room>Breakout Room</room>
+                <title>Job Sharing Between Users with Multitenant Apps</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T13:00:00-06:00</date>
+                <start>13:00</start>
+                <duration>00:25</duration>
+                <abstract>The Multitenant Apps framework was developed for supporting LLMs, databases, and other services on traditional, job-based HPC infrastructure through Open OnDemand (OOD). It allows for controlled and secure sharing of these services between select users, and can greatly reduce hardware overhead since users share the same resources. It is also an effective method for delivering content to users within the OOD interface, which is especially useful within classrooms, research groups, and even departments. Featuring an interactive demo!</abstract>
+                <slug>good-2026-84054-job-sharing-between-users-with-multitenant-apps</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='86878'>Sean Anderson [Wake Forest University]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/YJEYT9/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='5c158f0b-0ea5-5ac5-a6a1-745f14ca85d7' id='86004' code='UKAQCF'>
+                <room>Breakout Room</room>
+                <title>Bridging AI and Biomedical Workflows via Containerized Apps in Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T13:30:00-06:00</date>
+                <start>13:30</start>
+                <duration>00:25</duration>
+                <abstract>HPC faces a dual challenge of supporting AI/ML engineers alongside domain-specific researchers who may lack Linux expertise. This presentation explores leveraging OOD as a unified gateway for cancer research and AI/ML pipelines. We detail our technical strategy of configuring OOD interactive applications to launch and manage Apptainer containers. This strategy delivers portable, reproducible, and version-controlled software stacks - from GPU-accelerated PyTorch environments to GUI-based biomedical visualization tools, effectively democratizing access to HPC by abstracting the complexity of the container runtime and Slurm. We share how this approach provides a low entry barrier for oncologists/biologists, environmental consistency for AI experts, and reduces support burden.</abstract>
+                <slug>good-2026-86004-bridging-ai-and-biomedical-workflows-via-containerized-apps-in-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87085'>Shane Corder [Moffitt Cancer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>High Performance Computing (HPC) is no longer the exclusive domain of physicists and engineers comfortable with the command line. Today, HPC centers must support a rapidly expanding &quot;long tail&quot; of users&#8212;from oncologists visualizing CryoEM data to AI experts training neural networks. This presentation details how we have architected Open OnDemand (OOD) to serve as the unifying interface for these divergent workloads, using Apptainer (formerly Singularity) as the underlying engine for software portability and reproducibility.
+
+We will begin by outlining the friction inherent in traditional HPC access models. For biomedical researchers, the barrier is often the command line interface and the difficulty of moving massive datasets (&quot;Data Gravity&quot;). For AI/ML engineers, the friction is often referred to as &quot;dependency hell&quot;&#8212;managing conflicting versions of Python, PyTorch, and CUDA on a shared cluster.
+
+The core of this talk focuses on our technical solution: configuring Open OnDemand Interactive Apps to act as user-friendly wrappers around Apptainer containers. We will provide a deep dive into the following architectural components and workflows:
+
+The Container Strategy: How we curate a library of Apptainer images to encapsulate complex software stacks, allowing us to update host drivers without breaking user workflows.
+
+OOD App Configuration: A technical look at mapping user inputs (queue selection, GPU requirements) in form.yml directly to Slurm flags and container bind-mounts.
+
+Visualization &amp; Interactive AI: How we leverage OOD&#8217;s VNC capabilities to enable server-side rendering for data visualization, and provide persistent JupyterLab environments for model training.
+
+From Bench to Bedside: Perhaps most critically, we will showcase a &quot;Translational Science&quot; workflow. We support researchers who develop custom OOD apps that act as front-ends for trained AI/ML models. These simplified interfaces allow patient-facing doctors&#8212;users with absolutely no HPC background&#8212;to run inference on patient data and interpret results. This transforms the supercomputer from a backend research engine into an accessible clinical tool.
+
+Finally, we will present metrics on the impact of this architecture. We will discuss how abstracting the complexities of Slurm behind a web interface has reduced the &quot;fear of the terminal&quot; and enabled a new class of users&#8212;including clinicians&#8212;to leverage high-performance computing without ever writing a line of code.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/UKAQCF/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='19c856be-68fc-580d-8ab3-bed6b5adb02d' id='86623' code='SFDZPQ'>
+                <room>Breakout Room</room>
+                <title>KROOD: Kubernetes Running Open OnDemand</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-11T14:00:00-06:00</date>
+                <start>14:00</start>
+                <duration>00:25</duration>
+                <abstract>Kubernetes has emerged as a *de facto* standard for deploying distributed systems and complex, multi-service web applications, and is gaining popularity in HPC environments. Given its demonstrated utility for research computing, how can we leverage Kubernetes for orchestrating  Open OnDemand (OOD) deployments? In this talk, we present a Kubernetes operator we developed for deploying and managing OOD inside a Kubernetes cluster. We demonstrate how our operator can be used with a pilot implementation of a Kubernetes-native OOD architecture that allows for network available PUNs and advanced scheduling. Finally, we&#8217;ll close with a discussion of the pros, cons, and potential use cases for the KROOD approach to OOD management.</abstract>
+                <slug>good-2026-86623-krood-kubernetes-running-open-ondemand</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87612'>Aaron Janssen [North Dakota State University]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/SFDZPQ/</url>
+                <feedback_url></feedback_url>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='4' date='2026-03-12' start='2026-03-12T04:00:00-06:00' end='2026-03-13T03:59:00-06:00'>
+        <room name='Main Hall' guid='1f3ac6d4-442e-525d-8c07-1776a3ed8691'>
+            <event guid='6bd068a9-56f4-59cb-b107-a5c7fa4c9f41' id='90286' code='LEAGRY'>
+                <room>Main Hall</room>
+                <title>Open OnDemand Dev Rel Relations</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-12T09:00:00-06:00</date>
+                <start>09:00</start>
+                <duration>00:25</duration>
+                <abstract></abstract>
+                <slug>good-2026-90286-open-ondemand-dev-rel-relations</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87206'>Emily Moffat Sadeghi [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/LEAGRY/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='630acc2e-6407-55f4-8541-3e6c97f1f3ea' id='90289' code='FPQHRW'>
+                <room>Main Hall</room>
+                <title>Appverse: Contributing and Best-Practices</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-12T09:30:00-06:00</date>
+                <start>09:30</start>
+                <duration>00:25</duration>
+                <abstract></abstract>
+                <slug>good-2026-90289-appverse-contributing-and-best-practices</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='91434'>Lissie Fein [Sweet and Fizzy]</person><person id='86878'>Sean Anderson [Wake Forest University]</person>
+                </persons>
+                <language>en</language>
+                <description>This session dives into how to contribute to the Appverse and follow best practices for creating high-quality, reusable Open OnDemand app configurations. We&#8217;ll cover contribution workflows, documentation standards, metadata guidance, and tips for making apps portable across HPC environments. Whether you&#8217;re refining an existing app or sharing a new one, you&#8217;ll leave with practical guidance to ensure your contributions are clear, consistent, and community-ready.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/FPQHRW/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='99790141-4ab7-53cb-bc0b-988b6f7ec2ae' id='86667' code='YHLDNY'>
+                <room>Main Hall</room>
+                <title>Tales from creating a universal Linux package for Open OnDemand with snap</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-12T10:00:00-06:00</date>
+                <start>10:00</start>
+                <duration>00:25</duration>
+                <abstract>This talk goes through the history of the Open OnDemand snap, a single package for running Open OnDemand on any Linux distribution.
+
+The talk covers four sections: 
+
+1. The Good; successes such as automatic backup/restore.
+2. The Bad; challenges like bundling Passenger, HTTPD, and NGINX together.
+3. The Ugly; implementing ad-hoc workarounds like a custom portal generator and custom Lua packages for administering Open OnDemand inside the snap runtime.
+4. What&#8217;s Next?
+
+In the &#8220;What&#8217;s Next?&#8221; section, I&apos;ll present the Ubuntu HPC community&apos;s plans to integrate the snap into [Charmed HPC](https://documentation.ubuntu.com/charmed-hpc/latest/) to be the default user frontend. I will highlight blockers, struggles, hopeful contributions to Open OnDemand, and areas where we need community assistance.</abstract>
+                <slug>good-2026-86667-tales-from-creating-a-universal-linux-package-for-open-ondemand-with-snap</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87640'>Jason C. Nucciarone [Ubuntu]</person>
+                </persons>
+                <language>en</language>
+                <description>Dive into the origins of the [Open OnDemand snap](https://github.com/charmed-hpc/ondemand-snap), and learn how I managed to put together a semi-working Open OnDemand instance into a single package that can be installed and run on any Linux distribution that supports the snap package manager. 
+
+This talk will be delivered in four parts:
+
+1. The Good!
+2. The Bad :-|
+3. The Ugly :-(
+4. What&#8217;s Next?
+
+In &#8220;The Good&#8221; section, I&#8217;ll discuss what went well when putting together the Open OnDemand snap, like having the ability to backup and restore your portal configuration, or managing Open OnDemand&#8217;s configuration from the command line using snap hooks. &#8220;The Bad&#8221; section will delve into the pain I experienced trying to bundle Phusion Passenger, Apache HTTPD, and NGINX in single package using sources only from Ubuntu&#8217;s package archives, and how I had to patch Passenger&#8217;s installation script to not autodetect PCRE2. &#8220;The Ugly&#8221; section will then mention some of the &#8220;hacks and wacks&#8221; that I had to implement to make Open OnDemand work nicely within the snap runtime such as creating my own portal generator in Go, and how I became an OpenIDC expert overnight to solve authentication issues before presenting a demo in front of 600+ engineers the next day.
+
+At the end of the talk, I&#8217;ll detail what the Ubuntu HPC community&#8217;s future plans are for our work around Open OnDemand, and how we hope to integrate it into our open source project, [Charmed HPC](https://documentation.ubuntu.com/charmed-hpc/latest/),  to be the default frontend users interact with to use their cluster. I&#8217;ll highlight what our current blockers are, where we&#8217;ve struggled, what we hope to potentially contribute to Open OnDemand, and where we could use help from the existing Open OnDemand community.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/YHLDNY/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='c9fbcade-e72c-5260-940c-b3ec92b9446e' id='89976' code='FKKXGU'>
+                <room>Main Hall</room>
+                <title>Open OnDemand Developer Team Open Mic</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-12T10:30:00-06:00</date>
+                <start>10:30</start>
+                <duration>00:25</duration>
+                <abstract>Meet with Open OnDemand Dev team members to ask questions about the platform and the docs that don&#8217;t easily lend themselves to discourse or email. Community members are welcome to chime in on topics outside the scope of what is deployed at Ohio Supercomputer Center.</abstract>
+                <slug>good-2026-89976-open-ondemand-developer-team-open-mic</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='87206'>Emily Moffat Sadeghi [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                <description>Last year at GOOD 25, the development team led essentially open mic sessions with the attendees on whatever questions or concerns they had in mind.  This led to incredible discussion and insight from things that ranged from applications to intricate security questions to requested features and to questions about how OOD is developed or designed.</description>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/FKKXGU/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='ea779cfe-bf03-5e46-823c-383b39a3b11f' id='90290' code='WTFBH7'>
+                <room>Main Hall</room>
+                <title>So GOOD We&apos;ll Do It Again</title>
+                <subtitle></subtitle>
+                <type>Talk</type>
+                <date>2026-03-12T10:55:00-06:00</date>
+                <start>10:55</start>
+                <duration>00:25</duration>
+                <abstract></abstract>
+                <slug>good-2026-90290-so-good-we-ll-do-it-again</slug>
+                <track></track>
+                
+                <persons>
+                    <person id='90366'>Alan Chalker [Ohio Supercomputer Center]</person>
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/WTFBH7/</url>
+                <feedback_url></feedback_url>
+            </event>
+            <event guid='3aef2d9b-adb6-589a-9e16-d85b9fc82c96' id='90291' code='8C8FCJ'>
+                <room>Main Hall</room>
+                <title>Collaboration Space Available for Remaining Attendees</title>
+                <subtitle></subtitle>
+                <type>Other [Share your creative idea for the program]</type>
+                <date>2026-03-12T12:30:00-06:00</date>
+                <start>12:30</start>
+                <duration>01:00</duration>
+                <abstract></abstract>
+                <slug>good-2026-90291-collaboration-space-available-for-remaining-attendees</slug>
+                <track></track>
+                
+                <persons>
+                    
+                </persons>
+                <language>en</language>
+                
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <links></links>
+                <attachments></attachments>
+
+                <url>https://pretalx.com/good-2026/talk/8C8FCJ/</url>
+                <feedback_url></feedback_url>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+</schedule>

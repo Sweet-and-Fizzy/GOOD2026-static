@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//good-2026//talk//XNUVDC
+BEGIN:VTIMEZONE
+TZID:US/Mountain
+BEGIN:DAYLIGHT
+DTSTART:20250311T000000
+TZNAME:MDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251102T020000
+RDATE:20261101T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260308T030000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Auto Machine Learning on Open OnDemand - Keegan [Texas A&M Univers
+ ity]
+DTSTART;TZID=US/Mountain:20260311T165000
+DTEND;TZID=US/Mountain:20260311T170000
+DTSTAMP:20261020T211451Z
+UID:pretalx-good-2026-XNUVDC@pretalx.com
+DESCRIPTION:Machine learning now plays a very important role in a wide ran
+ ge of scientific fields. However many researchers in these scientific fiel
+ ds don't have machine learning expertise and may find it difficult to trai
+ n a machine learning model themselves. \nAuto machine learning bridges thi
+ s gap by making it very simple to train a state of the art model. Auto mac
+ hine learning frameworks like AutoGluon make it such that all you need is 
+ a dataset and a few lines of code.  \nThe interactive application that I h
+ ave developed for Open OnDemand closes the gap further by not requiring th
+ e user to write any code at all. Through our application\, users can simpl
+ y choose a dataset and their configuration\, and train the model.
+LOCATION:Main Hall
+URL:https://pretalx.com/good-2026/talk/XNUVDC/
+END:VEVENT
+END:VCALENDAR
