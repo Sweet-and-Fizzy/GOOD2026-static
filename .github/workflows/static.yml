@@ -31,6 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Prefix paths for the project Pages URL
+        # Pages use root paths. Until a custom domain (CNAME) is attached, the
+        # site is served under /<repo>/, so prefix those paths at deploy time.
+        run: |
+          if [ ! -f CNAME ]; then
+            python3 .github/prefix-paths.py "/${GITHUB_REPOSITORY#*/}"
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
